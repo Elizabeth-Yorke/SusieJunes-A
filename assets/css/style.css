@@ -1,0 +1,190 @@
+/* ----------------------------------- link to google fonts --------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* ----------------------------------- background colors --------------------------------- */
+
+#logo {
+    background-color: #14260C;
+}
+
+#opening-times {
+    background-color: #8FA677;
+}
+
+#about-us {
+    background-color: #F2F2F2;
+}
+
+#find-us {
+    background-color: #8FA677;
+}
+
+.name {
+    background-color: #14260C;
+}
+
+.slogan {
+    background-color:#14260C;
+}
+
+.footer-name {
+    background-color: #14260C;
+}
+
+.footer-download {
+    background-color: #8FA677;
+}
+
+.footer-links {
+    background-color:#14260C;
+}
+
+/* ----------------------------------- text colors --------------------------------- */
+
+#opening-times {
+    color: #14260C;
+}
+
+#about-us {
+    color: #33402A;
+}
+
+#find-us {
+    color: #14260C;
+}
+
+.name {
+    color:#F2F2F2;
+}
+
+.slogan {
+    color:#F2F2F2;
+}
+
+.footer-name {
+    color:#F2F2F2;
+}
+
+.footer-download {
+    color:#33402A
+}
+
+.footer-links {
+    color:#F2F2F2
+}
+
+/* ----------------------------------- logo --------------------------------- */
+
+.logo {
+    background: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#hero-image-container {
+    margin: 0;
+    padding: 0;
+}
+
+#hero-image {
+    background: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    min-height: 360px;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.slogan {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    font-size: large;
+}
+
+/* ----------------------------------- information boxes --------------------------------- */
+
+#information-boxes {
+    text-align: center;
+}
+
+/* ----------------------------------- opening times --------------------------------- */
+
+#opening-times {
+    padding: 20px;
+}
+
+/* ----------------------------------- about us --------------------------------- */
+
+#about-us {
+    padding: 20px;
+}
+
+/* ----------------------------------- find us --------------------------------- */
+
+#find-us {
+    padding: 20px;
+}
+
+#map-wrapper {
+    height: 300px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/* ----------------------------------- footer --------------------------------- */
+
+.footer {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+}
+
+.footer-slogan {
+    display: inline-block;
+}
+
+.footer-name {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-download {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.footer-links {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+}
