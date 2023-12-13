@@ -2,76 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* ----------------------------------- background colors --------------------------------- */
+/* ----------------------------------- colors --------------------------------- */
 
-#logo {
-    background-color: #14260C;
+.color-scheme-a {
+    background-color: #33402A;
+    color: #F2F2F2;
 }
 
-#opening-times {
+.color-scheme-b {
     background-color: #8FA677;
+    color: #14260C;
 }
 
-#about-us {
+.color-scheme-c {
     background-color: #F2F2F2;
-}
-
-#find-us {
-    background-color: #8FA677;
-}
-
-.name {
-    background-color: #14260C;
-}
-
-.slogan {
-    background-color:#14260C;
-}
-
-.footer-name {
-    background-color: #14260C;
-}
-
-.footer-download {
-    background-color: #8FA677;
-}
-
-.footer-links {
-    background-color:#14260C;
-}
-
-/* ----------------------------------- text colors --------------------------------- */
-
-#opening-times {
-    color: #14260C;
-}
-
-#about-us {
-    color: #33402A;
-}
-
-#find-us {
-    color: #14260C;
-}
-
-.name {
-    color:#F2F2F2;
-}
-
-.slogan {
-    color:#F2F2F2;
-}
-
-.footer-name {
-    color:#F2F2F2;
-}
-
-.footer-download {
-    color:#33402A
-}
-
-.footer-links {
-    color:#F2F2F2
+    color:#33402A;
 }
 
 /* ----------------------------------- logo --------------------------------- */
@@ -81,8 +26,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    padding-right: 0;
-    margin-right: 0;
 }
 
 #hero-image-container {
@@ -132,10 +75,35 @@
     padding: 20px;
 }
 
+#opening-times table {
+    width: 50%;
+    margin: 0 auto;
+}
 /* ----------------------------------- about us --------------------------------- */
 
+#about-us h3 {
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+#about-us p {
+    padding: 0;
+    margin: 0;
+}
+
 #about-us {
+    height: 300px;
+}
+
+/* ----------------------------------- quotes --------------------------------- */
+
+#quotes {
     padding: 20px;
+}
+
+.blockquote {
+    font-size: medium;
+    margin-top: 20px;
 }
 
 /* ----------------------------------- find us --------------------------------- */
@@ -152,6 +120,10 @@
     height: 100%;
     width: 100%;
     border: none;
+}
+
+.find-us-item {
+    padding-bottom: 16px;
 }
 
 /* ----------------------------------- footer --------------------------------- */
@@ -187,4 +159,5 @@
     padding-bottom: 25px;
     text-align: center;
     text-decoration: none;
+    color:#F2F2F2;
 }

@@ -31,13 +31,13 @@
 
 <!----------------------------------- logo --------------------------------->
 
-        <div class="col-sm-1 logo" alt="logo">
+        <div class="col-3 col-md-1 logo color-scheme-b" alt="logo">
             <a href="index.html"></a>
         </div>
         
 <!----------------------------- navbar from bootstrap --------------------------------->
 
-        <div class="col-sm-11" id="navbar">
+        <div class="col-9 col-md-11" id="navbar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-color-navbar" style="background-color:#8FA677;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
@@ -46,7 +46,7 @@
                     <ul class="navbar-nav" id="navigation">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="outsidecatering.html">Outside Catering</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catering.html">Outside Catering</a></li>
                         <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
                     </ul>
                 </div>
@@ -60,8 +60,8 @@
     <div class="container-fluid" id="hero-image-container">
         <div id="hero-image"></div>
         <div class="row">
-            <div class="col-md-6 name"><h1><strong>Susie June's Cafe</strong></h1></div>
-            <div class="col-md-6 slogan"><h2><em>A Pinch of Passion in Every Dish!</em></h2></div>
+            <div class="col-md-6 name color-scheme-a"><h1><strong>Susie June's Cafe</strong></h1></div>
+            <div class="col-md-6 slogan color-scheme-a"><h2><em>A Pinch of Passion in Every Dish!</em></h2></div>
         </div>
     </div>
 
@@ -71,10 +71,11 @@
 
 <div class="container-fluid" id="information-boxes">
 <div class="row">
-    <div class="col-md-4" id="opening-times">
+    <div class="col-md-4 color-scheme-b" id="opening-times">
     <section>
-        <h3>Opening Times</h3>
-        <table id="opening-times-table">
+        <h3 class="text-uppercase">Opening Times</h3>
+        <hr class="block-divider block-divider--short">
+        <table width="50%" style="margin:0 auto;" class="opening-times-table">
             <tr><td>Monday</td><td>7am</td><td>4.30pm</td></tr>
             <tr><td>Tuesday</td><td>7am</td><td>4.30pm</td></tr>
             <tr><td>Wednesday</td><td>7am</td><td>4.30pm</td></tr>
@@ -85,36 +86,75 @@
         <p><small>*Breakfast served until 3pm.</small></p>
         <p><small>*Last food orders 30mins before closing.</small></p>
     </section>
-    </div>
 
 <!----------------------------------- about us --------------------------------->
 
-    <div class="col-md-4" id="about-us">
     <section>
-        <div>
-            <h3>About Us</h3>
-            <div class="facilities">
+        <div class="about-us color-scheme-c" id="about-us">
+            <h3 class="text-uppercase">About Us</h3>
+            <hr class="block-divider block-divider--short">
+            <div>
               <p>Wheelchair and pram accessible</p>
               <p>Dog friendly</p>
               <p>Indoor and outdoor seating</p>
               <p>Childrens toys available for use in cafe</p>
               <p>Outside catering available</p>
-              <div id="dog"><img  src="/assets/images/dog.jpg" alt="dog at the cafe"/></div>
             </div>
         </div>
     </section>
     </div>
 
+<!----------------------------------- quotes --------------------------------->
+
+    <div class="col-md-4 color-scheme-c" id="quotes">
+    <section class="logo">
+            <div class="logo color-scheme-b" alt="logo">
+                <a href="index.html"></a>
+            </div>
+    </section>
+    <section class="quotes">
+            <div class="container-wrapper">
+              <div class="container quotes-container content-container">
+                <h3 class="text-uppercase">Quotes:</h3>
+                <hr class="block-divider block-divider--short">
+                <div class="media">
+                    <div class="d-none d-sm-block">
+                        <img src="/assets/images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="blockquote">
+                            <p><em>The food at Susie June's is great quality and very reasonably priced.</em></p>
+                            <p>- Jane Doe</p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="d-none d-sm-block">
+                        <img src="/assets/images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="blockquote">
+                            <p><em>There is a lovely atmosphere in the cafe. The ladies at Susie June's can't do enough to help their customers.</em></p>
+                            <p>- John Doe</p>
+                        </blockquote>
+                    </div>
+                </div>
+              </div>
+            </div>
+    </section>
+    </div>
+
 <!----------------------------------- find us --------------------------------->
 
-    <div class="col-md-4" id="find-us">
+    <div class="col-md-4 color-scheme-b" id="find-us">
     <section>
         <div>
-            <h3>Find Us</h3>
+            <h3 class="text-uppercase">Find Us</h3>
+            <hr class="block-divider block-divider--short">
             <div>
-              <div><i class="fa-solid fa-location-dot"></i><p>67F High Street Starbeck, Harrogate, United Kingdom.</p></div>
-              <div><i class="fa-solid fa-phone"></i><p>01423 819999</p></div>
-              <div><i class="fa-solid fa-envelope"></i><p>susiejunes@yahoo.com</p></div>
+              <div class="find-us-item"><i class="fa-solid fa-location-dot"></i><p>67F High Street Starbeck, Harrogate, United Kingdom.</p></div>
+              <div class="find-us-item"><i class="fa-solid fa-phone"></i><p>01423 819999</p></div>
+              <div class="find-us-item"><i class="fa-solid fa-envelope"></i><p>susiejunes@yahoo.com</p></div>
             </div>
             <div id="map-wrapper">
               <iframe id="map" alt="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37523.91623031434!2d-1.503956!3d53.9984309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795230197f5f9d%3A0x28d3493f947d24a0!2sSusie%20June%E2%80%99s%20Cafe!5e0!3m2!1sen!2suk!4v1701972933701!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
@@ -129,15 +169,15 @@
 
 <footer class="container-fluid" id="footer">
     <div class="row">
-        <div class="col-sm-4 footer-name">
+        <div class="col-sm-4 footer-name color-scheme-a">
             <h5><strong>Susie June's Cafe</strong></h5>
             <p class="footer-slogan"><em>A Pinch of Passion in Every Dish!</em></p>
         </div>
-        <div class="col-sm-4 footer-download">
+        <div class="col-sm-4 footer-download color-scheme-b">
             <h5>Download our Menu</h5>
         </div>
-        <div class="col-sm-4 footer-links">
-            <a class="footer-links" href="https://www.facebook.com/profile.php?id=61550517449489&sk=photos" alt="link to cafe Facebook page"><h5><i class="fa-brands fa-square-facebook"></i> Follow us on Facebook</h5></a>
+        <div class="col-sm-4 footer-links color-scheme-a">
+            <a class="footer-links" href="https://www.facebook.com/profile.php?id=61550517449489&sk=photos" target="_blank" link to cafe Facebook page"><h5><i class="fa-brands fa-square-facebook"></i> Follow us on Facebook</h5></a>
         </div>
     </div>
 </footer>
