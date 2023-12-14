@@ -31,21 +31,21 @@
 
 <!----------------------------------- logo --------------------------------->
 
-        <div class="col-sm-1 logo" alt="logo">
-            <a href="index.html"></a>
+        <div class="col-3 col-md-1 logo color-scheme-b" alt="logo">
+            <a href="../SusieJunes-A/index.html"></a>
         </div>
         
 <!----------------------------- navbar from bootstrap --------------------------------->
 
-        <div class="col-sm-11" id="navbar">
+        <div class="col-9 col-md-11" id="navbar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-color-navbar" style="background-color:#8FA677;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav" id="navigation">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="catering.html">Outside Catering</a></li>
                         <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
                     </ul>
@@ -60,8 +60,8 @@
     <div class="container-fluid" id="hero-image-container">
         <div id="hero-image"></div>
         <div class="row">
-            <div class="col-md-6 name"><h1><strong>Susie June's Cafe</strong></h1></div>
-            <div class="col-md-6 slogan"><h2><em>A Pinch of Passion in Every Dish!</em></h2></div>
+            <div class="col-md-6 name color-scheme-b"><h1><strong>Susie June's Cafe</strong></h1></div>
+            <div class="col-md-6 slogan color-scheme-b"><h2><em>A Pinch of Passion in Every Dish!</em></h2></div>
         </div>
     </div>
 
@@ -69,9 +69,11 @@
 
 <!---------------------------------- breakfast menu --------------------------------->
 
+<article class="menu-article">
 <div class="container-fluid">
-    <div class="row">
+    <div class="row color-scheme-a menu-row">
         <div class="col-md-8">
+            <section>
             <table class="menu-table">
                 <h4 class="menu-subtitle" id="breakfast-menu-title">Breakfast Menu</h4>
                 <tr>
@@ -95,15 +97,26 @@
                     <td></td>
                 </tr>
             </table>
+            </section>
         </div>
-        <div class="col-md-4">Breakfast Image</div>
+        <div class="col-md-4">
+            <section>
+            <div class="container-wrapper">
+                <div class="media">
+                    <div class="food-image breakfast-image">
+                        <img src="/assets/images/breakfast.jpg" class="rounded-circle mr-3" height=200 width=200>                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </div>
     </div>
 </div>
 
 <!--------------------------- breakfast & hot sandwiches --------------------------------->
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row color-scheme-c menu-row">
         <div class="col-md-4">
             <section>
             <h4 class="menu-subtitle">Breakfast Sandwiches & Wraps</h4>
@@ -156,17 +169,37 @@
             </table>
             </section>
         </div>
-        <div class="col-md-4">Image</div>
+        <div class="col-md-4">
+            <section>
+                <div class="container-wrapper">
+                    <div class="media">
+                        <div class="food-image hot-sandwich-image">
+                            <img src="/assets/images/logo.jpg " class="rounded-circle mr-3" height=200 width=200>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+        </div>
         <div class="col-md-4">
             <section>
                 <h4 class="menu-subtitle">Hot Sandwiches £4.50</h4>
-                <ul>
-                    <li class="menu-item">Bacon, Lettuce, Tomato</li>
-                    <li class="menu-item">Bacon, Brie, Cranberry</li>
-                    <li class="menu-item">Roast Chicken</li>
-                    <li class="menu-item">Roast Beef, Onion & Gravy</li>
-                    <li class="menu-item">Chicken Fajita</li>
-                </ul>
+                <table class="menu-table">
+                    <tr>
+                        <td class="menu-item">Bacon, Lettuce, Tomato</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Bacon, Brie, Cranberry</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Roast Chicken</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Roast Beef, Onion & Gravy</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Chicken Fajita</td>
+                    </tr>
+                </table>
             </section>
         </div>
     </div>
@@ -175,23 +208,54 @@
 <!----------------------------------- paninis and light bites --------------------------------->
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-4">Image</div>
+    <div class="row color-scheme-b menu-row">
+        <div class="col-md-4">
+        <section>
+            <div class="container-wrapper">
+                <div class="media">
+                    <div class="food-image hot-sandwich-image">
+                        <img src="/assets/images/panini.jpg" class="rounded-circle mr-3" height=200 width=200>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        </div>
         <div class="col-md-4">
             <section>
                 <h4 class="menu-subtitle">Paninis & Toasties £5.00</h4>
-                <ul>
-                    <li class="menu-item">Tuna Melt</li>
-                    <li class="menu-item">Cheese & Ham</li>
-                    <li class="menu-item">Cheese & Tomato</li>
-                    <li class="menu-item">Bacon, Brie & Cranberry</li>
-                    <li class="menu-item">Chorizo, Tomato & Mozzarella</li>
-                    <li class="menu-item">Chicken, Bacon & Mozarella</li>
-                    <li class="menu-item">Chicken, Pesto & Mozarella</li>
-                    <li class="menu-item">Pepperoni, Salami & Mozzarella</li>
-                    <li class="menu-item">Tomato, Pesto & Mozzarella</li>
-                    <li class="menu-item">Vegan Cheese & Tomato</li>
-                </ul>
+                <table class="menu-table">
+                    <tr>
+                        <td class="menu-item">Tuna Melt</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Cheese & Ham</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Cheese & Tomato</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Bacon, Brie & Cranberry</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Chorizo, Tomato & Mozzarella</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Chicken, Bacon & Mozarella</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Chicken, Pesto & Mozarella</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Pepperoni, Salami & Mozzarella</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Tomato, Pesto & Mozzarella</td>
+                    </tr>
+                    <tr>
+                        <td class="menu-item">Vegan Cheese & Tomato</td>
+                    </tr>
+                </table>
+                <br>
                 <table class="menu-table">
                     <tr>
                         <td class="menu-item">Add Salad</td>
@@ -261,7 +325,7 @@
 <!----------------------------------- potatoes and omelettes --------------------------------->
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row color-scheme-a menu-row">
         <div class="col-md-4">
             <section>
                 <h4 class="menu-subtitle">Oven Baked Potatoes</h4>
@@ -279,6 +343,17 @@
                         <td class="menu-item-price">£1.00</td>
                     </tr>
                 </table>
+            </section>
+        </div>
+        <div class="col-md-4">
+            <section>
+                <div class="container-wrapper">
+                    <div class="media">
+                        <div class="food-image hot-sandwich-image">
+                            <img src="/assets/images/logo.jpg " class="rounded-circle mr-3" height=200 width=200>
+                        </div>
+                    </div>                
+                </div>
             </section>
         </div>
         <div class="col-md-4"><section>
@@ -302,14 +377,13 @@
                 </tr>
             </table>
         </section></div>
-        <div class="col-md-4">Image</div>
     </div>
 </div>
 
 <!----------------------------------- burgers and kids meals --------------------------------->
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row color-scheme-c menu-row">
         <div class="col-md-4"><section>
             <h4 class="menu-subtitle">Burgers</h4>
             <table class="menu-table">
@@ -350,36 +424,50 @@
                 </tr>
             </table>
         </section></div>
-        <div class="col-md-4">Image</div>
         <div class="col-md-4"><section>
             <h4 class="menu-subtitle">Kid's Meal & Drink £4.50</h4>
-            <small class="menu-smallprint">Kids Meal served with Chips or Mash & Beans or Hoops.</small>
-            <ul>
-                <li class="menu-item">Fish Fingers</li>
-                <li class="menu-item">Chicken Nuggets</li>
-                <li class="menu-item">Chicken Popcorn</li>
-                <li class="menu-item">Eggs</li>
-                <li class="menu-item">Burger</li>
-                <li class="menu-item">Sausage</li>
-            </ul>
+            <table class="menu-table">
+                <tr>
+                    <td class="menu-item">Fish Fingers</td>
+                </tr>
+                <tr>
+                    <td class="menu-item">Chicken Nuggets</td>
+                </tr>
+                <tr>
+                    <td class="menu-item">Chicken Popcorn</td>
+                </tr>
+                <tr>
+                    <td class="menu-item">Eggs</td>
+                </tr>
+                <tr>
+                    <td class="menu-item">Burger</td>
+                </tr>
+                <tr>
+                    <td class="menu-item">Sausage</td>
+                </tr>
+            </table>
+            <small class="menu-smallprint">*Kids Meal served with Chips or Mash & Beans or Hoops.</small>
         </section></div>
+        <div class="col-md-4">
+            <section class="quotes">
+                <div class="container-wrapper">
+                    <div class="container quotes-container content-container">
+                    <div class="media">
+                        <div class="food-image kids-meal-image">
+                            <img src="/assets/images/kids.jpg" class="rounded-circle mr-3" height=200 width=200>
+                        </div>
+                    </div>
+                    </div>               
+                </div>
+            </section>
+        </div>
     </div>
 </div>
 
-<!----------------------------------- footer --------------------------------->
+<!----------------------------------- drinks --------------------------------->
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-    </div>
-</div>
-
-<!----------------------------------- footer --------------------------------->
-
-<div class="container-fluid">
-    <div class="row">
+    <div class="row color-scheme-b menu-row">
         <div class="col-md-4"><section>
             <h4 class="menu-subtitle">Hot Drinks</h4>
             <table class="menu-table">
@@ -450,11 +538,26 @@
                 </tr>
             </table>
         </section></div>
-        <div class="col-md-4">Image</div>
+        <div class="col-md-4">
+            <section>
+                <div class="container-wrapper">
+                    <div class="media">
+                        <div class="food-image hot-sandwich-image">
+                            <img src="/assets/images/hot-chocolate.jpg" class="rounded-circle mr-3" height=200 width=200>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+        </div>
         <div class="col-md-4">
         <section>
             <h4 class="menu-subtitle">Cold Drinks</h4>
             <table class="menu-table">
+                <tr>
+                    <td class="menu-item">Fresh Milkshake</td>
+                    <td class="menu-item-price">£3.00</td>
+                    <td></td>
+                </tr>
                 <tr>
                     <th></th>
                     <th class="menu-item-size">Small</th>
@@ -485,22 +588,31 @@
                     <td class="menu-item-price">£2.00</td>
                     <td></td>
                 </tr>
-                <small class="menu-smallprint">*Plant Milk Available</small>
             </table>
+            <small class="menu-smallprint">*Plant Milk Available</small>
         </section>
         </div>
     </div>
 </div>
 
-<!----------------------------------- footer --------------------------------->
+<!----------------------------------- cold sandwiches & salad --------------------------------->
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-4">Image</div>
-        <div class="col-md-4"><section>
-            <h4 class="menu-subtitle">Deli Counter</h4>
-            <h4 class="menu-subtitle">Cold Sandwiches</h4>
-            <small class="menu-smallprint">*White or Granary Available</small>
+    <div class="row color-scheme-a menu-row">
+        <div class="col-md-4">
+            <section>
+                <div class="container-wrapper">
+                    <div class="media">
+                        <div class="food-image deli-image">
+                            <img src="/assets/images/deli.jpg " class="rounded-circle mr-3" height=200 width=200>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+        </div>
+        <div class="col-md-4">
+        <section>
+            <h4 class="menu-subtitle">Cold Sandwiches & Salad</h4>
             <table class="menu-table">
                 <tr>
                     <th></th>
@@ -600,17 +712,33 @@
                     <td class="menu-item-price">£6.50</td>
                 </tr>
             </table>
+            <small class="menu-smallprint">*White or Granary Available</small>
         </section></div>
-        <div class="col-md-4"><section>
+        <div class="col-md-4">
+            <section>
+                <div class="container-wrapper">
+                    <div class="media">
+                        <div class="food-image milkshake-image">
+                            <img src="/assets/images/milkshake.jpg " class="rounded-circle mr-3" height=200 width=200>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------- snacks and sauces --------------------------------->
+
+<div class="container-fluid">
+    <div class="row color-scheme-c menu-row">
+        <div class="col-md-4">
+        <section>
             <h4 class="menu-subtitle">Sweet & Savoury Snacks</h4>
             <table class="menu-table">
                 <tr>
                    <td class="menu-item">Locally sourced Cakes & Bakes</td>
                     <td class="menu-item-price">£2.00 - £3.00</td>
-             </tr>
-                <tr>
-                    <td class="menu-item">Fresh Milkshake</td>
-                    <td class="menu-item-price">£3.00</td>
                 </tr>
                 <tr>
                     <td class="menu-item">Harrogate Chocolate Factory Chocolate</td>
@@ -626,27 +754,41 @@
                 </tr>
             </table>
         </section>
+        </div>
+        <div class="col-md-4">
+            <section>
+                <div class="container-wrapper">
+                    <div class="media">
+                        <div class="food-image hot-sandwich-image">
+                            <img src="/assets/images/chocolate.jpg" class="rounded-circle mr-3" height=200 width=200>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+        </div>
+        <div class="col-md-4">
         <section>
             <h4 class="menu-subtitle">Sauces & Dressings</h4>
             <p class="menu-item">Mayo, Garlic Mayo, Vegan Mayo, Salad Cream, Sweet Chilli, Sriracha, Mustard, Balsamic, Persto, Branston Pickle.</p> 
         </section>
-    </div>
+        </div>
     </div>
 </div>
+</article>
 
 <!----------------------------------- footer --------------------------------->
 
 <footer class="container-fluid" id="footer">
     <div class="row">
-        <div class="col-sm-4 footer-name">
+        <div class="col-sm-4 footer-name color-scheme-b">
             <h5><strong>Susie June's Cafe</strong></h5>
             <p class="footer-slogan"><em>A Pinch of Passion in Every Dish!</em></p>
         </div>
-        <div class="col-sm-4 footer-download">
+        <div class="col-sm-4 footer-download color-scheme-a">
             <h5>Download our Menu</h5>
         </div>
-        <div class="col-sm-4 footer-links">
-            <a class="footer-links" href="https://www.facebook.com/profile.php?id=61550517449489&sk=photos" alt="link to cafe Facebook page"><h5><i class="fa-brands fa-square-facebook"></i> Follow us on Facebook</h5></a>
+        <div class="col-sm-4 footer-links color-scheme-b">
+            <a class="footer-links" href="https://www.facebook.com/profile.php?id=61550517449489&sk=photos" target="_blank" link to cafe Facebook page"><h5><i class="fa-brands fa-square-facebook"></i> Follow us on Facebook</h5></a>
         </div>
     </div>
 </footer>

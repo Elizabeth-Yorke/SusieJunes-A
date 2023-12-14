@@ -1,22 +1,31 @@
 /* ----------------------------------- link to google fonts --------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Edu TAS Beginner', cursive;
+}
 
 /* ----------------------------------- colors --------------------------------- */
 
 .color-scheme-a {
-    background-color: #33402A;
+    background-color: #334026;
     color: #F2F2F2;
 }
 
 .color-scheme-b {
-    background-color: #8FA677;
-    color: #14260C;
+    background-color: #788C69;
+    color: #F2F2F2;
 }
 
 .color-scheme-c {
     background-color: #F2F2F2;
-    color:#33402A;
+    color:#334026;
 }
 
 /* ----------------------------------- logo --------------------------------- */
@@ -106,6 +115,16 @@
     margin-top: 20px;
 }
 
+#middle-name {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: xx-large;
+}
+
+#middle-slogan {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: x-large;
+}
+
 /* ----------------------------------- find us --------------------------------- */
 
 #find-us {
@@ -161,3 +180,36 @@
     text-decoration: none;
     color:#F2F2F2;
 }
+
+/* ----------------------------------- MENU PAGE --------------------------------- */
+
+.menu-subtitle {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.menu-row {
+    padding-bottom: 20px;
+}
+
+.menu-article table {
+    margin: 0 auto;
+}
+
+.menu-smallprint {
+    text-align: center;
+}
+
+/* ----------------------------------- food images --------------------------------- */
+
+.food-image {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin: 0;
+    border: 0;
+    align-items: center;
+}
+
+/* ----------------------------------- footer --------------------------------- */
