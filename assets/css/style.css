@@ -213,6 +213,14 @@ h1, h2, h3, h4 {
     padding-bottom: 20px;
 }
 
+#kids-meals {
+    padding-top: 20px;
+}
+
+#light-bites {
+    padding-top: 20px;
+}
+
 /* ----------------------------------- food images --------------------------------- */
 
 .food-image {
