@@ -26,27 +26,23 @@
 <!----------------------------------- body starts here --------------------------------->
 
 <body>
-<header>
-    <div class="row">
 
-<!----------------------------------- logo --------------------------------->
-
-        <div class="col-3 col-md-1 logo color-scheme-b" alt="logo">
-            <a href="../SusieJunes-A/index.html"></a>
-        </div>
-        
 <!----------------------------- navbar from bootstrap --------------------------------->
 
-        <div class="col-9 col-md-11" id="navbar">
+<header>
+    <div class="row">
+        <div id="navbar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-color-navbar" style="background-color:#8FA677;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
+                    <a href="/index.html" alt="link to home page">
+                        <img width="50" height="50" src="/assets/images/logo.jpg" alt="logo"/></div>
+                    </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav" id="navigation">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="catering.html">Outside Catering</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catering.html">Catering</a></li>
                         <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
                     </ul>
                 </div>
@@ -74,7 +70,7 @@
     <div class="row color-scheme-a menu-row">
         <div class="col-md-8">
             <section>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <h4 class="menu-subtitle" id="breakfast-menu-title">Breakfast Menu</h4>
                 <tr>
                     <td><h6 class="breakfast-name">Susie June's Breakfast</h6><p class="menu-item">1 sausage, 2 bacon, 1 egg, 1 hash brown, beans, mushrooms, tomatoes, black pudding, 1 toast, tea & coffee</p></td>
@@ -88,26 +84,19 @@
                     <td><h6 class="breakfast-name">Veggie Breakfast</h6><p class="menu-item">2 vegetarian sausages, 1 egg, 2 hash brown, beans, mushrooms, tomatoes, 1 toast, tea & coffee</p></td>
                     <td class="menu-item-price">£7.00</td>
                 </tr>
-                <tr>
-                    <td><small class="menu-smallprint">*Choice of fried, scrambled or poached egg.</small></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><small class="menu-smallprint">*Refill standard tea & coffee.</small></td>
-                    <td></td>
-                </tr>
             </table>
+            <p><small class="menu-smallprint">*Choice of fried, scrambled or poached egg.</small></p><style type="text/css"> p small {text-align: center;}</style>
+            <p><small class="menu-smallprint">*Refill standard tea & coffee.</small></p>         
             </section>
+
+<!-- took bootstrap elements and used them here to center images vertically and horizontally --------------------------------->
+
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
             <section>
-            <div class="container-wrapper">
-                <div class="media">
-                    <div class="food-image breakfast-image">
-                        <img src="/assets/images/breakfast.jpg" class="rounded-circle mr-3" height=200 width=200>                        </div>
-                    </div>
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
-            </div>
             </section>
         </div>
     </div>
@@ -120,7 +109,7 @@
         <div class="col-md-4">
             <section>
             <h4 class="menu-subtitle">Breakfast Sandwiches & Wraps</h4>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <tr>
                     <th></th>
                     <th class="menu-item-size">Small</th>
@@ -169,21 +158,17 @@
             </table>
             </section>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
             <section>
-                <div class="container-wrapper">
-                    <div class="media">
-                        <div class="food-image hot-sandwich-image">
-                            <img src="/assets/images/logo.jpg " class="rounded-circle mr-3" height=200 width=200>
-                        </div>
-                    </div>                
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
             </section>
         </div>
         <div class="col-md-4">
             <section>
                 <h4 class="menu-subtitle">Hot Sandwiches £4.50</h4>
-                <table class="menu-table">
+                <table class="table-in-menu">
                     <tr>
                         <td class="menu-item">Bacon, Lettuce, Tomato</td>
                     </tr>
@@ -209,21 +194,17 @@
 
 <div class="container-fluid">
     <div class="row color-scheme-b menu-row">
-        <div class="col-md-4">
-        <section>
-            <div class="container-wrapper">
-                <div class="media">
-                    <div class="food-image hot-sandwich-image">
-                        <img src="/assets/images/panini.jpg" class="rounded-circle mr-3" height=200 width=200>
-                    </div>
-                </div>                
-            </div>
-        </section>
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
+            <section>
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
+                </div>
+            </section>
         </div>
         <div class="col-md-4">
             <section>
                 <h4 class="menu-subtitle">Paninis & Toasties £5.00</h4>
-                <table class="menu-table">
+                <table class="table-in-menu">
                     <tr>
                         <td class="menu-item">Tuna Melt</td>
                     </tr>
@@ -256,7 +237,7 @@
                     </tr>
                 </table>
                 <br>
-                <table class="menu-table">
+                <table class="table-in-menu">
                     <tr>
                         <td class="menu-item">Add Salad</td>
                         <td class="menu-item-price">£0.70</td>
@@ -271,7 +252,7 @@
         <div class="col-md-4">
             <section>
                 <h4 class="menu-subtitle">Light Bites & Sides</h4>
-                <table class="menu-table">
+                <table class="table-in-menu">
                     <tr>
                         <td class="menu-item">Beans on Toast</td>
                         <td class="menu-item-price">£4.00</td>
@@ -329,7 +310,7 @@
         <div class="col-md-4">
             <section>
                 <h4 class="menu-subtitle">Oven Baked Potatoes</h4>
-                <table class="menu-table">
+                <table class="table-in-menu">
                     <tr>
                         <td class="menu-item">Choice of Filling</td>
                         <td class="menu-item-price">£4.50</td>
@@ -345,20 +326,16 @@
                 </table>
             </section>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
             <section>
-                <div class="container-wrapper">
-                    <div class="media">
-                        <div class="food-image hot-sandwich-image">
-                            <img src="/assets/images/logo.jpg " class="rounded-circle mr-3" height=200 width=200>
-                        </div>
-                    </div>                
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
             </section>
         </div>
         <div class="col-md-4"><section>
             <h4 class="menu-subtitle">Omelettes</h4>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <tr>
                     <td class="menu-item">Choice of 2 Fillings</td>
                     <td class="menu-item-price">£5.00</td>
@@ -386,7 +363,7 @@
     <div class="row color-scheme-c menu-row">
         <div class="col-md-4"><section>
             <h4 class="menu-subtitle">Burgers</h4>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <tr>
                     <th></th>
                     <th class="menu-item-size">Regular</th>
@@ -426,7 +403,7 @@
         </section></div>
         <div class="col-md-4"><section>
             <h4 class="menu-subtitle">Kid's Meal & Drink £4.50</h4>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <tr>
                     <td class="menu-item">Fish Fingers</td>
                 </tr>
@@ -448,16 +425,10 @@
             </table>
             <small class="menu-smallprint">*Kids Meal served with Chips or Mash & Beans or Hoops.</small>
         </section></div>
-        <div class="col-md-4">
-            <section class="quotes">
-                <div class="container-wrapper">
-                    <div class="container quotes-container content-container">
-                    <div class="media">
-                        <div class="food-image kids-meal-image">
-                            <img src="/assets/images/kids.jpg" class="rounded-circle mr-3" height=200 width=200>
-                        </div>
-                    </div>
-                    </div>               
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
+            <section>
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
             </section>
         </div>
@@ -470,7 +441,7 @@
     <div class="row color-scheme-b menu-row">
         <div class="col-md-4"><section>
             <h4 class="menu-subtitle">Hot Drinks</h4>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <tr>
                     <th></th>
                     <th class="menu-item-size">Small</th>
@@ -538,30 +509,26 @@
                 </tr>
             </table>
         </section></div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
             <section>
-                <div class="container-wrapper">
-                    <div class="media">
-                        <div class="food-image hot-sandwich-image">
-                            <img src="/assets/images/hot-chocolate.jpg" class="rounded-circle mr-3" height=200 width=200>
-                        </div>
-                    </div>                
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
             </section>
         </div>
         <div class="col-md-4">
         <section>
             <h4 class="menu-subtitle">Cold Drinks</h4>
-            <table class="menu-table">
-                <tr>
-                    <td class="menu-item">Fresh Milkshake</td>
-                    <td class="menu-item-price">£3.00</td>
-                    <td></td>
-                </tr>
+            <table class="table-in-menu">
                 <tr>
                     <th></th>
                     <th class="menu-item-size">Small</th>
                     <th class="menu-item-size">Large</th>
+                </tr>
+                <tr>
+                    <td class="menu-item">Fresh Milkshake</td>
+                    <td class="menu-item-price">£3.00</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td class="menu-item">Iced Coffee</td>
@@ -599,21 +566,17 @@
 
 <div class="container-fluid">
     <div class="row color-scheme-a menu-row">
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
             <section>
-                <div class="container-wrapper">
-                    <div class="media">
-                        <div class="food-image deli-image">
-                            <img src="/assets/images/deli.jpg " class="rounded-circle mr-3" height=200 width=200>
-                        </div>
-                    </div>                
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
             </section>
         </div>
         <div class="col-md-4">
         <section>
             <h4 class="menu-subtitle">Cold Sandwiches & Salad</h4>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <tr>
                     <th></th>
                     <th class="menu-item-size">Plain</th>
@@ -630,7 +593,8 @@
                     <td class="menu-item-price">£4.20</td>
                 </tr>
             </table>
-            <table class="menu-table">
+            <br>
+            <table class="table-in-menu">
                 <tr>
                     <th class="menu-item-size">Fillings</th>
                     <th class="menu-item-size">Fresh Salad</th>
@@ -700,7 +664,8 @@
                     <td></td>
                 </tr>
             </table>
-            <table class="menu-table">
+            <br>
+            <table class="table-in-menu">
                 <tr>
                     <th></th>
                     <th class="menu-item-size">Small</th>
@@ -714,14 +679,10 @@
             </table>
             <small class="menu-smallprint">*White or Granary Available</small>
         </section></div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
             <section>
-                <div class="container-wrapper">
-                    <div class="media">
-                        <div class="food-image milkshake-image">
-                            <img src="/assets/images/milkshake.jpg " class="rounded-circle mr-3" height=200 width=200>
-                        </div>
-                    </div>                
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
             </section>
         </div>
@@ -735,10 +696,10 @@
         <div class="col-md-4">
         <section>
             <h4 class="menu-subtitle">Sweet & Savoury Snacks</h4>
-            <table class="menu-table">
+            <table class="table-in-menu">
                 <tr>
                    <td class="menu-item">Locally sourced Cakes & Bakes</td>
-                    <td class="menu-item-price">£2.00 - £3.00</td>
+                    <td class="menu-item-price">£2.00-£3.00</td>
                 </tr>
                 <tr>
                     <td class="menu-item">Harrogate Chocolate Factory Chocolate</td>
@@ -755,14 +716,10 @@
             </table>
         </section>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center mx-auto p-2" style="width: 200px;">
             <section>
-                <div class="container-wrapper">
-                    <div class="media">
-                        <div class="food-image hot-sandwich-image">
-                            <img src="/assets/images/chocolate.jpg" class="rounded-circle mr-3" height=200 width=200>
-                        </div>
-                    </div>                
+                <div class="menu-image flex-shrink-0" >
+                    <img src="/assets/images/breakfast.jpg " alt="picture of breakfast" class="rounded-circle mr-3" height=200 width=200>
                 </div>
             </section>
         </div>

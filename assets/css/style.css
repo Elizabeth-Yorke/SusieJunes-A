@@ -30,13 +30,6 @@ h1, h2, h3, h4 {
 
 /* ----------------------------------- logo --------------------------------- */
 
-.logo {
-    background: url(../images/logo.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
 #hero-image-container {
     margin: 0;
     padding: 0;
@@ -183,22 +176,41 @@ h1, h2, h3, h4 {
 
 /* ----------------------------------- MENU PAGE --------------------------------- */
 
+.menu-article {
+    padding: 0;
+    margin: 0;
+}
+
 .menu-subtitle {
-    padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
 }
 
 .menu-row {
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .menu-article table {
     margin: 0 auto;
+    padding-top: 15px;
 }
 
 .menu-smallprint {
     text-align: center;
+}
+
+.table-in-menu td {
+    padding: 0 15px;
+}
+
+.table-in-menu th {
+    padding: 0 15px;
+}
+
+.menu-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* ----------------------------------- food images --------------------------------- */
