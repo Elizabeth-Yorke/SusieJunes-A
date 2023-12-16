@@ -39,10 +39,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav" id="navigation">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="catering.html">Catering</a></li>
-                        <li class="nav-item"><a class="nav-link" href="reservations.html">Reservation</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="reservations.html">Reservation</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,8 +62,63 @@
 
 </header>
 
-<!----------------------------------- catering --------------------------------->
-
+<!----------------------------------- form --------------------------------->
+<section class="color-scheme-c">
+<div class="reservation-form">
+    <form class="reservation-form">
+        <fieldset id="your-details">
+            <legend type="text">Your Details</legend>
+            <label for="customer-name">Name:</label>
+            <input type="text" id="customer-name" name="customer-name" required/>
+            <br>
+            <label for="customer-phone">Phone:</label>
+            <input type="tel" id="customer-phone" name="customer-phone" pattern="[0-9]{11}" required/>
+            <br>
+            <label for="customer-email">Email:</label>
+            <input type="email" id="customer-email" name="customer-email"/>
+        </fieldset>
+        <fieldset id="reservation-details">
+        <legend type="text">Reservation Details</legend>
+        <label for="reservation-date">Reservation date</label>
+        <input type="date" id="reservation-date" name="reservation-date" required />
+        <br>
+        <label for="reservation-time">Reservation time</label>
+        <input type="time" id="reservation-time" name="reservation-time" min="09:00" max="15:30" required />
+        <br>
+        <label for="number-of-people">Number of people</label>
+        <input type="number" id="number-of-people" name="number-of-people" min="1" max="30" />
+        </fieldset>
+        <fieldset id="additional-details">
+            <legend type="additional-details">Additional Details</legend>
+            <fieldset>
+                <legend>Please check if you require:</legend>
+                <div>
+                    <label for="wheelchair">Wheelchair access</label>
+                    <input type="checkbox" id="wheelchair" name="wheelchair"/>
+                </div>
+                <div>
+                    <label for="high-chair">A high chair</label>
+                    <input type="checkbox" id="high-chair" name="high-chair"/>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Where would you like to sit?</legend>
+                <div>
+                    <label for="inside">Inside</label>
+                    <input type="radio" id="inside" name="seating" value="inside">
+                </div>
+                <div>
+                    <label for="outside">Outside</label>
+                    <input type="radio" id="outside" name="seating" value="outside">
+                </div>
+            </fieldset>
+            <legend for="additional-info">Anything else you would like us to know?</legend>
+            <textarea id="additional-info" name="additional-info" placeholder="Allergies, dietary requirements, or anything else!"></textarea>
+        </fieldset>
+        <input type="submit" value="Send Request"/>
+    </form>
+</div>
+</section>
 <!----------------------------------- footer --------------------------------->
 
 <footer class="container-fluid" id="footer">
