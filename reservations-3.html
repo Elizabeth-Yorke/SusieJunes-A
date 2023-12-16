@@ -42,7 +42,7 @@
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="catering.html">Catering</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="reservations.html">Reservation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="reservations.html">Reservation</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,20 +64,36 @@
 
 <!----------------------------------- form --------------------------------->
 <section class="color-scheme-c">
-<div class="reservation-form" id="reservation-form-1">
-    <form action="/reservations-2.html" class="reservation-form">
-        <fieldset id="your-details">
-            <legend type="text">Your Details</legend>
-            <label for="customer-name">Name:</label>
-            <input type="text" id="customer-name" name="customer-name" required/>
-            <br>
-            <label for="customer-phone">Phone:</label>
-            <input type="tel" id="customer-phone" name="customer-phone" pattern="[0-9]{11}" required/>
-            <br>
-            <label for="customer-email">Email:</label>
-            <input type="email" id="customer-email" name="customer-email"/>
+<div class="reservation-form" id="reservation-form-3">
+    <form action="/reservations-4.html" class="reservation-form">
+        <fieldset id="additional-details">
+            <legend type="additional-details">Additional Details</legend>
+            <fieldset>
+                <legend>Please check if you require:</legend>
+                <div>
+                    <label for="wheelchair">Wheelchair access</label>
+                    <input type="checkbox" id="wheelchair" name="wheelchair"/>
+                </div>
+                <div>
+                    <label for="high-chair">A high chair</label>
+                    <input type="checkbox" id="high-chair" name="high-chair"/>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Where would you like to sit?</legend>
+                <div>
+                    <label for="inside">Inside</label>
+                    <input type="radio" id="inside" name="seating" value="inside">
+                </div>
+                <div>
+                    <label for="outside">Outside</label>
+                    <input type="radio" id="outside" name="seating" value="outside">
+                </div>
+            </fieldset>
+            <legend for="additional-info">Anything else you would like us to know?</legend>
+            <textarea id="additional-info" name="additional-info" placeholder="Allergies, dietary requirements, or anything else!"></textarea>
         </fieldset>
-        <input id="reservation-form-1-submit" type="submit" value="Continue"/>
+        <input type="submit" value="Send Request"/>
     </form>
 </div>
 </section>

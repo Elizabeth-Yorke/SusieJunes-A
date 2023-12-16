@@ -232,5 +232,68 @@ h1, h2, h3, h4 {
     align-items: center;
 }
 
-/* ----------------------------------- reservations --------------------------------- */
+/* ----------------------------------- reservations 1 --------------------------------- */
 
+#reservation-form-1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#customer-name {
+    width: 50%;
+}
+
+#customer-phone {
+    margin-top: 20px;
+    width: 25%;
+}
+
+#customer-email {
+    margin-top: 20px;
+    width: 50%;
+}
+
+#reservation-form-1-submit {
+    margin-top: 20px;
+}
+
+/* ----------------------------------- reservations 2 --------------------------------- */
+
+#reservation-form-2 {
+    text-align: center;
+    padding: 20px;
+}
+
+#reservation-date {
+    margin-top: 20px;
+}
+
+#reservation-time {
+    margin-top: 20px;
+}
+
+#reservation-time {
+    margin-top: 20px;
+}
+
+#number-of-people {
+    margin-top: 20px;
+    width: 10%;
+}
+
+#reservation-form-2-continue {
+    margin-top: 20px;
+}
+
+/* ----------------------------------- reservations 3 --------------------------------- */
+
+#reservation-form-3 {
+    text-align: center;
+}
+
+/* ----------------------------------- reservations 4 --------------------------------- */
+
+#reservation-form-4 {
+    padding: 20px;
+    text-align: center;
+}
