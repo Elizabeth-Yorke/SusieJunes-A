@@ -68,13 +68,13 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-/* ----------------------------------- information boxes --------------------------------- */
+/* ----------------------------------- information-boxes --------------------------------- */
 
 #information-boxes {
     text-align: center;
 }
 
-/* ----------------------------------- opening times --------------------------------- */
+/* ----------------------------------- opening-times --------------------------------- */
 
 #opening-times {
     padding: 20px;
@@ -84,7 +84,7 @@ h1, h2, h3, h4 {
     width: 50%;
     margin: 0 auto;
 }
-/* ----------------------------------- about us --------------------------------- */
+/* ----------------------------------- about-us --------------------------------- */
 
 #about-us h3 {
     padding-top: 50px;
@@ -121,7 +121,7 @@ h1, h2, h3, h4 {
     font-size: x-large;
 }
 
-/* ----------------------------------- find us --------------------------------- */
+/* ----------------------------------- contact-us --------------------------------- */
 
 #contact-us {
     padding: 20px;
@@ -167,6 +167,14 @@ h1, h2, h3, h4 {
     text-align: center;
     text-decoration: none;
     color:#F2F2F2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-download a:hover {
+    color: #788C69;
 }
 
 .footer-links {
@@ -177,9 +185,17 @@ h1, h2, h3, h4 {
     text-align: center;
     text-decoration: none;
     color:#F2F2F2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-/* ----------------------------------- MENU PAGE --------------------------------- */
+.footer-links a:hover {
+    color: #334026;
+}
+
+/* ----------------------------------- MENU-PAGE --------------------------------- */
 
 .menu-article {
     padding: 0;
@@ -192,8 +208,7 @@ h1, h2, h3, h4 {
 }
 
 .menu-row {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .menu-article table {
@@ -218,15 +233,13 @@ h1, h2, h3, h4 {
     padding-bottom: 20px;
 }
 
-#kids-meals {
-    padding-top: 20px;
+.menu-part {
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#light-bites {
-    padding-top: 20px;
-}
-
-/* ----------------------------------- food images --------------------------------- */
+/* ----------------------------------- food-images --------------------------------- */
 
 .food-image {
     padding-top: 50px;
@@ -237,7 +250,7 @@ h1, h2, h3, h4 {
     align-items: center;
 }
 
-/* ----------------------------------- CATERING PAGE --------------------------------- */
+/* ----------------------------------- CATERING-PAGE --------------------------------- */
 
 #catering-title {
     padding-top: 20px;
@@ -257,7 +270,7 @@ h1, h2, h3, h4 {
     padding-top: 40px;
 }
 
-/* ----------------------------------- RESERVATIONS 1 --------------------------------- */
+/* ----------------------------------- RESERVATIONS-1 --------------------------------- */
 
 #reservation-form-1 {
     text-align: center;
@@ -282,7 +295,7 @@ h1, h2, h3, h4 {
     margin-top: 20px;
 }
 
-/* ----------------------------------- reservations 2 --------------------------------- */
+/* ----------------------------------- reservations-2 --------------------------------- */
 
 #reservation-form-2 {
     text-align: center;
@@ -310,13 +323,13 @@ h1, h2, h3, h4 {
     margin-top: 20px;
 }
 
-/* ----------------------------------- reservations 3 --------------------------------- */
+/* ----------------------------------- reservations-3 --------------------------------- */
 
 #reservation-form-3 {
     text-align: center;
 }
 
-/* ----------------------------------- reservations 4 --------------------------------- */
+/* ----------------------------------- reservations-4 --------------------------------- */
 
 #reservation-form-4 {
     padding: 20px;
@@ -325,4 +338,23 @@ h1, h2, h3, h4 {
 
 #logo-reservations-4 {
     text-align: center;
+}
+
+/* ----------------------------------- media-queries --------------------------------- */
+
+@media (min-width: 992px) {
+
+.center-col {
+    width: 29%;
+    align-self: center;
+}
+
+}
+
+@media (min-width: 992px) {
+
+#kids-meals {
+    margin-top: 0px;
+}
+
 }
