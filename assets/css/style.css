@@ -239,6 +239,14 @@ h1, h2, h3, h4 {
     margin-bottom: 5px;
 }
 
+#hot-drinks td {
+    padding: 0 5px;
+}
+
+#hot-drinks th {
+    padding: 0 5px;
+}
+
 /* ----------------------------------- food-images --------------------------------- */
 
 .food-image {
@@ -248,6 +256,30 @@ h1, h2, h3, h4 {
     margin: 0;
     border: 0;
     align-items: center;
+}
+
+/* ----------------------------------- audio-menu --------------------------------- */
+
+.audio-menu-sections {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:#334026;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.audio-menu-sections a:hover {
+    color:#788C69;
+}
+
+#menu-note {
+    padding-top: 20px;
 }
 
 /* ----------------------------------- CATERING-PAGE --------------------------------- */
