@@ -260,26 +260,20 @@ h1, h2, h3, h4 {
 
 /* ----------------------------------- audio-menu --------------------------------- */
 
-.audio-menu-sections {
+#menu-note {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    text-align: center;
-    text-decoration: none;
-    color:#334026;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.audio-menu-sections a:hover {
-    color:#788C69;
-}
-
-#menu-note {
     padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#full-audio-menu {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 /* ----------------------------------- CATERING-PAGE --------------------------------- */
