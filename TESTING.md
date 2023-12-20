@@ -11,7 +11,7 @@ The following validation has been done using the recommended [HTML W3C Validator
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | [W3C] (https://validator.w3.org/nu/?doc=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2F)| ![screenshot](assets/documentation/validation-screenshot-index.html.png) | No errors: Initial errors found and fixed.|
-| Menu | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
+| Menu | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2Fmenu.html) | ![screenshot](assets/documentation/validation-screenshot-menu.html.png) | No errors: Initial errors found and fixed.|
 | Catering | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
 | Reservations | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
 | Reservations 2 | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
