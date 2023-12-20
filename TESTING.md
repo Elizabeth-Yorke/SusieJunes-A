@@ -12,9 +12,9 @@ The following validation has been done using the recommended [HTML W3C Validator
 | --- | --- | --- | --- |
 | Home | [W3C] (https://validator.w3.org/nu/?doc=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2F)| ![screenshot](assets/documentation/validation-screenshot-index.html.png) | No errors: Initial errors found and fixed.|
 | Menu | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2Fmenu.html) | ![screenshot](assets/documentation/validation-screenshot-menu.html.png) | No errors: Initial errors found and fixed.|
-| Catering | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
-| Reservations | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
-| Reservations 2 | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
+| Catering | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2Fcatering.html) | ![screenshot](assets/documentation/validation-screenshot-catering.html.png) | No errors: Initial errors found and fixed.|
+| Reservations | [W3C](https://elizabeth-yorke.github.io/SusieJunes-A/reservations.html) | ![screenshot](assets/documentation/validation-screenshot-reservations.html.png) | No errors: Initial errors found and fixed.|
+| Reservations 2 | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2Freservations-2.html%3Fcustomer-name%3De%26customer-phone%3D00000000000%26customer-email%3D) | ![screenshot](assets/documentation/validation-screenshot-reservations-2.html.png) | No errors: Initial errors found and fixed.|
 | Reservations 3 | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
 | Reservations 4 | [W3C]() | ![screenshot]() | No errors: Initial errors found and fixed.|
 
