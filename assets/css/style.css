@@ -22,8 +22,8 @@ h1, h2, h3, h4 {
 }
 
 .color-scheme-b {
-    background-color: #788C69;
-    color: #F2F2F2;
+    background-color: #7E8C70;
+    color: #FFFFFF;
 }
 
 .color-scheme-c {
@@ -171,7 +171,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-download a:hover {
-    color: #788C69;
+    color: #7E8C70;
 }
 
 .footer-links {
@@ -181,7 +181,7 @@ h1, h2, h3, h4 {
     padding-bottom: 25px;
     text-align: center;
     text-decoration: none;
-    color:#F2F2F2;
+    color:#FFFFFF;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;

@@ -25,9 +25,7 @@ The following validation has been done using the recommended [The W3C CSS Valida
 | Page | W3C URL | Screenshot | Notes |
 | style.css| [W3C] (https://jigsaw.w3.org/css-validator/validator) | ![screenshot](assets/documentation/validation-screenshot-style.css.png) | No errors: Initial errors found and fixed.|
 
-## Validating Browser Compatibility
-
-## Browser Compatibility
+## Testing Browser Compatibility
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
@@ -40,7 +38,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Opera | ![screenshot](assets/documentation/browser-testing-screenshot-opera.png) | Works as expected|
 | Avast | ![screenshot](assets/documentation/browser-testing-screenshot-avast.png) | Works as expected|
 
-## Responsiveness
+## Testing Responsiveness
 
 I used media genesis responsive design checker [Media Genesis responsive design checker] (https://www.responsivedesignchecker.com/checker.php?url=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2F&width=1400&height=700) to check how responsive Susie June's website is. I used the live, deployed site. Links below.
 
@@ -56,3 +54,16 @@ I used media genesis responsive design checker [Media Genesis responsive design 
 |Phone Sony Xperia Z3|Screensize 360x640|[screenshot](assets/documentation/media-genesis-screenshot-360x640.png) |Works as expected|
 
 
+## Testing Website Speed
+
+I tested my deployed project using using PageSpeed Insights via web.dev [PageSpeed](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/kv7di1miqk?form_factor=mobile)
+
+|Page|Screensize|PageSpeed URL|Screenshot|Notes|
+|Home|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/kv7di1miqk?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-home-mobile.png)|The biggest performance problems are the bootstrap and fontawesome links. I can't improve the contrast of the writing on the company logo. Adding coloumn titles to the menu tables would be excessive visually. The audio menu can be used to aid accessibility in this situation.|
+|Home|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
+|Menu|Mobile|[PageSpeed URL]()|[screenshot]()|Notes|
+|Menu|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
+|Catering|Mobile[PageSpeed URL]()|[screenshot]()|Notes|
+|Catering|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
+|Reservations|Mobile|[PageSpeed URL]()|[screenshot]()|Notes|
+|Reservations|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
