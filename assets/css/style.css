@@ -375,6 +375,18 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+/* -- 404 -- */
+
+#text-404 {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact-title-404 {
+    text-align: center;
+    padding: 20px;
+}
+
 /* -- Media Queries -- */
 
 @media (min-width: 992px) {
