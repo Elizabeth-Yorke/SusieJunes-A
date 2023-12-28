@@ -43,6 +43,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 I used media genesis responsive design checker [Media Genesis responsive design checker] (https://www.responsivedesignchecker.com/checker.php?url=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2F&width=1400&height=700) to check how responsive Susie June's website is. I used the live, deployed site. Links below.
 
 |Device|Screensize|URL|Screenshot|Notes|
+| --- | --- | --- | --- | --- |
 |Desktop 24"|Screensize 1920x1200|[screenshot](assets/documentation/media-genesis-screenshot-1920-1200.png) |Works as expected|
 |Desktop 20"|Screensize 1600x900|[screenshot](assets/documentation/media-genesis-screenshot-1600x900.png) |Works as expected|
 |Notebook 13"|Screensize 1024x800|[screenshot](assets/documentation/media-genesis-screenshot-1024x800.png) |Works as expected|
@@ -59,6 +60,7 @@ I used media genesis responsive design checker [Media Genesis responsive design 
 I tested my deployed project using using PageSpeed Insights via web.dev [PageSpeed](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/kv7di1miqk?form_factor=mobile)
 
 |Page|Screensize|PageSpeed URL|Screenshot|Notes|
+| --- | --- | --- | --- | --- |
 |Home|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/kv7di1miqk?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-home-mobile.png)|The biggest performance problems are the bootstrap and fontawesome links. I can't improve the contrast of the writing on the company logo, but I have been back and edited the colour scheme as much as I can without losing the branding.|
 |Home|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/dyi2rohaa2?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-home-desktop.png)| Performs as expected. Missing unnecesary table headers and colour contrast in parts relating to the branding noted.|
 |Menu|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-menu-html/76lh4lzdfc?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-menu-mobile.png)|Slower loading times due to larger images|
