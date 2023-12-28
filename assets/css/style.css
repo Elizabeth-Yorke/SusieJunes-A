@@ -377,12 +377,27 @@ h1, h2, h3, h4 {
 
 /* -- 404 -- */
 
-#text-404 {
+#text-404-title {
+    font-family: 'Edu TAS Beginner', cursive;
     text-align: center;
     padding: 20px;
 }
 
-#contact-title-404 {
+#text-404a {
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    font-size: large;
+}
+
+#text-404b {
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.contact-title-404 {
     text-align: center;
     padding: 20px;
 }
