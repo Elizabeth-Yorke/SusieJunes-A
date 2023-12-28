@@ -69,3 +69,10 @@ I tested my deployed project using using PageSpeed Insights via web.dev [PageSpe
 |Catering|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-catering-html/zhs86d2g1h?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-catering-desktop.png)|Large images making loading slower. Table headers missing and colour contrast issues due to branding.|
 |Reservations|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-reservations-html/urehulurj0?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-reservations-mobile.png)|Biggest issues here due to boostrap and fontawesome links.|
 |Reservations|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-reservations-html/urehulurj0?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-reservations-desktop.png)|Everything over 90 here. Branding colour contrast is an issue again.|
+
+## Testing User Stories
+
+| User |User Story|Screenshot|
+| --- | --- | --- | --- |
+| New site user | I would like to know where this cafe is. | [screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
+| New site user | I would like to know what kind of food is served here. | [screenshot] ()

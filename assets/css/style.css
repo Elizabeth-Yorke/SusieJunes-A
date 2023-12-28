@@ -147,12 +147,13 @@ h1, h2, h3, h4 {
 
 .footer-slogan {
     display: inline-block;
+    color:#FFFFFF;
 }
 
 .footer-name {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
