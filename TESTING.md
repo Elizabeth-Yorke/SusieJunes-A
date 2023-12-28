@@ -59,11 +59,11 @@ I used media genesis responsive design checker [Media Genesis responsive design 
 I tested my deployed project using using PageSpeed Insights via web.dev [PageSpeed](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/kv7di1miqk?form_factor=mobile)
 
 |Page|Screensize|PageSpeed URL|Screenshot|Notes|
-|Home|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/kv7di1miqk?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-home-mobile.png)|The biggest performance problems are the bootstrap and fontawesome links. I can't improve the contrast of the writing on the company logo. Adding coloumn titles to the menu tables would be excessive visually. The audio menu can be used to aid accessibility in this situation.|
-|Home|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
-|Menu|Mobile|[PageSpeed URL]()|[screenshot]()|Notes|
-|Menu|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
-|Catering|Mobile[PageSpeed URL]()|[screenshot]()|Notes|
-|Catering|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
-|Reservations|Mobile|[PageSpeed URL]()|[screenshot]()|Notes|
-|Reservations|Desktop|[PageSpeed URL]()|[screenshot]()|Notes|
+|Home|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/kv7di1miqk?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-home-mobile.png)|The biggest performance problems are the bootstrap and fontawesome links. I can't improve the contrast of the writing on the company logo, but I have been back and edited the colour scheme as much as I can without losing the branding.|
+|Home|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A/dyi2rohaa2?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-home-desktop.png)| Performs as expected. Missing unnecesary table headers and colour contrast in parts relating to the branding noted.|
+|Menu|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-menu-html/76lh4lzdfc?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-menu-mobile.png)|Slower loading times due to larger images|
+|Menu|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-menu-html/76lh4lzdfc?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-menu-desktop.png)|Slower loading times due to larger images|
+|Catering|Mobile[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-catering-html/zhs86d2g1h?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-catering-mobile.png)|Large images making loading slower. Table headers missing intentionally and colour contrast issues due to branding.|
+|Catering|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-catering-html/zhs86d2g1h?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-catering-desktop.png)|Large images making loading slower. Table headers missing and colour contrast issues due to branding.|
+|Reservations|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-reservations-html/urehulurj0?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-reservations-mobile.png)|Biggest issues here due to boostrap and fontawesome links.|
+|Reservations|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-reservations-html/urehulurj0?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-reservations-desktop.png)|Everything over 90 here. Branding colour contrast is an issue again.|
