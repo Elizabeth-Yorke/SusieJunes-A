@@ -54,6 +54,7 @@ h1, h2, h3, h4 {
     padding: 20px 0;
     margin: 0;
     text-align: center;
+    text-shadow: 2px 2px 0px #334026;
 }
 
 .slogan {
@@ -155,6 +156,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
     padding-top: 20px;
     text-align: center;
+    text-shadow: 2px 2px 0px #334026;
 }
 
 .footer-download {
@@ -178,6 +180,7 @@ h1, h2, h3, h4 {
 .footer-links {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
+    text-shadow: 2px 2px 0px #334026;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
