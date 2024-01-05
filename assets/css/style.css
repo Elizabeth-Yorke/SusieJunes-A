@@ -43,6 +43,7 @@ h1, h2, h3, h4 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
+    background-color: #334026;
     min-height: 360px;
     margin: 0;
     padding: 0;

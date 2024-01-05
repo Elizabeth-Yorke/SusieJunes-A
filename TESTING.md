@@ -70,9 +70,13 @@ I tested my deployed project using using PageSpeed Insights via web.dev [PageSpe
 |Reservations|Mobile|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-reservations-html/urehulurj0?form_factor=mobile)|[screenshot](assets/documentation/pagespeed-screenshot-reservations-mobile.png)|Biggest issues here due to boostrap and fontawesome links.|
 |Reservations|Desktop|[PageSpeed URL](https://pagespeed.web.dev/analysis/https-elizabeth-yorke-github-io-SusieJunes-A-reservations-html/urehulurj0?form_factor=desktop)|[screenshot](assets/documentation/pagespeed-screenshot-reservations-desktop.png)|Everything over 90 here. Branding colour contrast is an issue again.|
 
-## Testing User Stories
+## Fullfilling User Story Requirements
 
-| User |User Story|Screenshot|
+| User |User Story|Answer|Screenshot|
 | --- | --- | --- | --- |
-| New site user | I would like to know where this cafe is. | [screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
-| New site user | I would like to know what kind of food is served here. | [screenshot] ()
+| New site user | I would like to know where this cafe is. |The 'Find Us' section on the home page includes the address and a map.| [screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
+| New site user | I would like to know what kind of food is served here. | There is a menu page and a downloadable menu in the footer.| [screenshot](assets/documentation/user-story-testing-screenshot-menu.png) |
+|New site user | I would like to know if this cafe has wheelchair access. | This information is in the 'About Us' section on the home page.| [screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
+|New and returning site user|I would like to know when the cafe is open.||[screenshot](assets/documentation/user-story-testing-screenshot-times.png)|
+|New and returning site user|I would like to know if I can bring my dog.||[screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
+|New and returning site user|I would like to be able to reserve a table.||[screenshot](assets/documentation/)|
