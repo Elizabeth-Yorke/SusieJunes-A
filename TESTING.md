@@ -74,9 +74,12 @@ I tested my deployed project using using PageSpeed Insights via web.dev [PageSpe
 
 | User |User Story|Answer|Screenshot|
 | --- | --- | --- | --- |
-| New site user | I would like to know where this cafe is. |The 'Find Us' section on the home page includes the address and a map.| [screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
-| New site user | I would like to know what kind of food is served here. | There is a menu page and a downloadable menu in the footer.| [screenshot](assets/documentation/user-story-testing-screenshot-menu.png) |
-|New site user | I would like to know if this cafe has wheelchair access. | This information is in the 'About Us' section on the home page.| [screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
-|New and returning site user|I would like to know when the cafe is open.||[screenshot](assets/documentation/user-story-testing-screenshot-times.png)|
-|New and returning site user|I would like to know if I can bring my dog.||[screenshot](assets/documentation/user-story-testing-screenshot-map.png)|
-|New and returning site user|I would like to be able to reserve a table.||[screenshot](assets/documentation/)|
+| New site user | I would like to know where this cafe is. |The 'Contact Us' section on the home page and the catering page includes the address and a map.| [screenshot](assets/documentation/user-story-screenshot-contact-us.png)|
+| New site user | I would like to know what kind of food is served here. | There is a menu page and a downloadable menu in the footer.| [screenshot](assets/documentation/user-story-screenshot-menu.png) |
+|New site user | I would like to see some reviews or quotes about this place. | There are some customer quotes in the 'Quotes' section on the home page, and on the catering page.| [screenshot](assets/documentation/user-story-screenshot-quotes-a.png)[screenshot](assets/documentation/user-story-screenshot-quotes-b.png)|
+|New and returning site user|I would like to know when the cafe is open.| This information is on the home page in the 'Opening Times' section.|[screenshot](assets/documentation/user-story-screenshot-opening-times.png)|
+|New and returning site user|I would like to know if I can bring my dog.| This information is in the 'About Us' section on the home page.|[screenshot](assets/documentation/user-story-screenshot-about-us.png)|
+|New and returning site user|I would like to be able to reserve a table.| There is an entire reservations page.|[screenshot](assets/documentation/user-story-screenshot-reservations.png)|
+|Returning site user| I love the food and would like to know if they do functions. | This information is on the 'Catering' page. | [screenshot](assets/documentation/validation-screenshot-catering.html.png) |
+|Returning site user| I would like to be able to reassure my friend that her wheelchair will get to the tables in this cafe.| This information is in the 'About Us' section on the home page. | [screenshot](assets/documentation/user-story-screenshot-about-us.png) |
+|Returning site user| I would like to follow this cafe on social media so I can see if they are doing any promotions I'm interested in. | There is a link to the cafe facebook page in the 'footer' section on the home page. | [screenshot](assets/documentation/user-story-screenshot-social.png) |
