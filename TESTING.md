@@ -83,3 +83,26 @@ I tested my deployed project using using PageSpeed Insights via web.dev [PageSpe
 |Returning site user| I love the food and would like to know if they do functions. | This information is on the 'Catering' page. | [screenshot](assets/documentation/validation-screenshot-catering.html.png) |
 |Returning site user| I would like to be able to reassure my friend that her wheelchair will get to the tables in this cafe.| This information is in the 'About Us' section on the home page. | [screenshot](assets/documentation/user-story-screenshot-about-us.png) |
 |Returning site user| I would like to follow this cafe on social media so I can see if they are doing any promotions I'm interested in. | There is a link to the cafe facebook page in the 'footer' section on the home page. | [screenshot](assets/documentation/user-story-screenshot-social.png) |
+
+## Debugging
+
+I encountered a few bugs, particularly in during the testing phase. Here is what I did with each of them:
+
+| Bug | Solution |
+| --- | --- |
+| I spent a long time trying to get the cafe logo into the menu bar with the link to the home page in tact. | I began by using col-11 for the menu bar and col-1 for the logo, but after trying many things, I eventually found a place within the bootstrapped menu bar where I could insert the logo.|
+| My image filepaths worked perfectly in the IED, but when I deployed my project from github, some of them didn't work. | I went back and checked all the filepaths to make sure they were relative links rather than absolute paths. |
+| W3C did not like the length of my comment lines on any of the pages. | I went back and shortened all my comment lines. |
+| I realised that some of the code I had written was surplus to requirement. | I went back and removed excess code that wasn't doing anything. Most of these were alt attributes that I had added to things like <a> and <iframe> attributes. |
+| W3C did not like the / in the end of my self closing attributes. | I went back and removed the closing / from the end of every self closing attribute.  |
+| I realised some of the sematic elements I had used were surplus to requirement. In particular, W3C picked up on every section that was lacking a header, or had the header written in a table.| I went back and removed excess semantic elements. |
+| I had forgotten to add alt tags to some images. | I went back and made sure every image had an alt tag. |
+| Images on the catering page were overlapping on the sideways phone screen size | I changed d-sm-block to d-md-block for the quotes images and reduced the size of the larger images slightly. |
+
+
+## Unfixed Bugs
+
+| Bug | Solution |
+| --- | --- |
+| PageSpeed was concerned about the colour contrast in every section of the website using color-scheme-b. This is a major problem because color-scheme-b was taken directly from the actual cafe branding. My client said that I can't produce a website with for this cafe without at least having the cafe name written in the same colours as it is on the actual cafe frontage and the actual cafe logo in some places on the website. | I reconfigured the colouring of every page to make sure I wasn't using color-scheme-b where there was writing on a background other than in the title strip and the footer. This was a particularly laborious task on the menu page because it is a long page, and I had broken in into small chunks using different variations of the branding colours to make it more palatable to the reader. I also took care to use as much of the color-scheme-b background colour as I could in sections where there was no writing, to make sure I didn't lose the branding colours. I looked at adding outlines to the text on the name strip and footer, to improve the colour contrast, but I couldn't find a workable way to do this. I did manage to add shadows to the text, which do improve the visual contrast without losing the branding colours, but they don't have much impact on PageSpeed's interpretation of the colour contrast.|  
+| PageSpeed thinks that the Fontawesome links, and most of my Bootstrapping is slowing down the website. | I am not yet condifent enough in these types of coding to want to mess with bootsrapped elements that are currently working, so I have left these as they are. |
