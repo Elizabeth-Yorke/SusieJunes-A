@@ -2,7 +2,7 @@
 
 Welcome to Susie June's Cafe website. Susie June's Cafe is a real cafe, which opened on the High Street in Starbeck in September 2023. The cafe is owned by two ladies, who are best friends with decades of catering experience and no interest in 'technology'. The cafe has a Facebook page run by the daughter of one of the owners, but they have no website, and no other web-presence.
 
-Initially, the only reason the owners wanted a website for the cafe was because they were aware that when people searched the internet for their cafe, poor reviews and damaging photos of the previous establishment came up. They were very keen to wipe away any connection with the previous cafe, and for photos connected with the cafe name to be photos of their cafe and thier food. As time went on they became excited about the project and grew to have some very strong opinions about many other things that they wanted from a website.
+Initially, the only reason the owners wanted a website for the cafe was because they were aware that when people searched the internet for their cafe, poor reviews and damaging photos of the previous establishment came up. They were very keen to wipe away any connection with the previous cafe, and felt that a new website with no mention of the previous establishment, might help to do that. As time went on they became excited about the project and grew to have some very strong opinions about many other things that they wanted from a website.
 
 A live version of the site can be viewed from [here.](https://elizabeth-yorke.github.io/SusieJunes-A/)
 
@@ -24,6 +24,7 @@ My wireframes were sketched on paper in front of the clients. There were many ve
 Here are screenshots of the wireframes we finally decided on:
 
 | Page | Phone Wireframe | Desktop Wireframe |
+| --- | --- | --- |
 | Home | [image](assets/wireframes/wireframe-home-phone.jpg) | [image](assets/wireframes/wireframe-home-desktop.jpg) | 
 | Menu | [image](assets/wireframes/wireframe-menu-phone.jpg) | [image](assets/wireframes/wireframe-menu-desktop.jpg) | 
 | Catering | [image](assets/wireframes/wireframe-catering-phone.jpg) | [image](assets/wireframes/wireframe-catering-desktop.jpg) | 
@@ -36,13 +37,13 @@ The menu page is significantly longer than it looks on the wireframe, but it fol
 In order to keep the website branding as close to the cafe branding as possible, I asked the owners for information on the colours they used in their branding. They didn't have any. So I used Adobe Color [https://color.adobe.com/create/image] to extract the colours from the cafe logo. [image](assets/documentation/adobe-color-wheel.png).
 
 Of the colours identified, I was asked to make as much of the website as I could using the following three colours:
-#F2F2F2 - off white
-#33402A - dark green
-#7E8C70 - mid green
+- Off white #F2F2F2
+- Dark green #33402A 
+- Mid green #7E8C70 
 
 with the following two colours for use if necesary:
-#14260C - very dark green
-#FFFFFF - white
+- Very dark green #14260C 
+- White #FFFFFF 
 
 ### Fonts
 
@@ -59,29 +60,29 @@ The user stories I have collected below are authentic user stories, gleaned from
 
 ### New site users
 
-I want the website to tell me where this cafe is.
-I would like to know what kind of food they serve there.
-I would like to read some reviews from other customers.
+- I want the website to tell me where this cafe is.
+- I would like to know what kind of food they serve there.
+- I would like to read some reviews from other customers.
 
 ### New and returning site users
 
-I want to be able to check what times and days it is open.
-If I can bring my dog, I want to see it in writing on the website first before I have a wasted trip.
-I want to be able to book a table.
+- I want to be able to check what times and days it is open.
+- I want to see evidence in writing that my dog will be allowed inside.
+- I want to be able to book a table.
 
 ### Returning customers
 
-I want to reassure my friend that her wheelchair will fit in the cafe.
-I want to find out if they do catering for functions.
-I want links to social media on the website. I don't want to be copying loads of addresses out.
+- I want to reassure my friend that her wheelchair will fit in the cafe.
+- I want to find out if they do catering for functions.
+- I want links to social media on the website. I don't want to be copying loads of addresses out.
 
 ### Cafe Owners
 
-We want our branding showing really strongly, so people know its not the last place.
-We want photos of our food on the website, not someone else's.
-We want honest reviews from our customers on there.
-We want more people to know about us so we get more customers.
-We don't want something we have to update or check in on.
+- We want our branding showing really strongly, so people know its not the last place.
+- We want photos of our food on the website, not the previous cafe's food.
+- We want honest reviews from our customers on there.
+- We want more people to know about us so we get more customers.
+- We don't want something we have to update or check in on.
 
 ## Features
 
@@ -111,6 +112,12 @@ This is a special feature added because the cafe is located close to a specialis
 **Authentic food pictures and reviews from real customers**
 These features were very important to the owners.
 
+**Favicon**
+Just a little extra to make the website feel more professional.
+
+**Customised 404 page**
+To help customers feel valued even if something goes wrong on the website.
+
 ### Future Additions
 
 **Bit Part Audio Menus**
@@ -122,17 +129,120 @@ I am still waiting for some photos to be supplied by the client.
 **A 'More About Us' page**
 Having done some more research and discussed it with the cafe owners, it looks as though adding an extra page with a bit of history or the cafe owners and their philosophy might actually bring more clients to their cafe. The cafe owners would like to make a point of their experience in the industry and advertise the fact that they strive to be a reasonably priced home from home. These facts are a little difficult to place on the website as it is.
 
+**Rotating Hero Image**
+The owners were set on the current hero image from the beginning of the project, because they felt their unique selling point was the 'personal touch' they bring to the cafe, so they wanted to be on the hero image. I therefore made sure that the owners can be seen on the image, even in the smallest screen size, choosing to show less of the shop front where necessary. Recently they have decided they would like to have the shop frontage and some of their food featured in the hero image too. I researched how to bootstrap a photo carousel, but I have not yet been supplied with the photos to fill it, so this will have to have to be a future addition now. 
+
 ## Testing
 
 Please find details of testing on a separate page [TESTING.md](TESTING.md).
 
-## Tools and Technologies Used
+## Technologies Used
 
-- HTML5 was used for the main site content.
-- CSS3 was used for the main site design and layout.
-- Git was used to commit and push versions of the website as it developed.
-- GitHub was used for secure online code storage.
-- GitHub Pages was used to host the deployed front-end site.
-- Bootstrap was used as a framework for modern responsiveness and pre-built components.
+- [HTML](https://en.wikipedia.org/wiki/HTML) was used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS)was used for the main site design and layout.
+- [Git](https://git-scm.com) was used to commit and push versions of the website as it developed.
+- [GitHub](https://github.com) was used for secure online code storage.
+- [GitHub Pages](https://pages.github.com)was used to host the deployed front-end site.
+- [Bootstrap](https://getbootstrap.com) was used as a framework for modern responsiveness and pre-built components.
+- [Google Fonts](https://fonts.google.com/) was used for the fonts.
+- [Font Awesome](https://fontawesome.com/) was used for the icons.
 
-- This project was initially started in Code Anywhere, but following numerous times when I couldn't access the site, or opening repositories took a long time, I switched to using Gitpod as my IDE, and completed the project using Gitpod.
+- This project was initially started using the IDE [Code Anywhere](https://codeanywhere.com/). Unfortunately there were numerous times when I couldn't access the site, or opening repositories took a long time, or the site crashed unexpectedly. I followed a thread of similar complaints to mine on Slack, and eventually contacted kenan_community_ci who advised me to switch to using [Gitpod](https://gitpod.io). I followed this advice and completed my project using Gitpod as my IDE.
+I was a bit worried there might be repercussions to switiching IDEs, as I built my project using the Codeanywhere template, but it seems to be working fine.
+
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/Elizabeth-Yorke/SusieJunes-A), navigate to the Settings tab 
+- Select Pages from the list on the right.
+- Under the Build and Deployment title, click on the 'source' section drop-down menu
+- Select **Deploy from a branch**
+- Click on the first dropdown menu in the 'branch' section
+- Select **Main**
+- Click **Save**
+- Wait for confirmation that the site has been deployed.
+
+The live link can be found [here](https://elizabeth-yorke.github.io/SusieJunes-A/)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+### Cloning
+
+You can clone this repository into your preferred IDE in order to edit it at your leisure.
+To clone this repository, follow these steps:
+
+1. Go to the [GitHub repository](https://github.com/Elizabeth-Yorke/SusieJunes-A) 
+2. Click on the green **Code** button above the files.
+3. Select your preferred type of clone (HTTPS, SSH or GitHub CLI).
+4. Click on the copy icon to copy the code.
+4. Open your chosen IDE.
+5. Select New Workspace.
+6. Paste the code you have copied (https://github.com/Elizabeth-Yorke/SusieJunes-A.git) into the correct place.
+7. Press enter.
+8. Wait while the new workspace is created.
+
+### Forking
+
+You can fork this repository in order to create an extra version of it which will be saved into your GitHub account. Once you have done this, you can edit your version and the original version will remain unaffected.
+
+To fork this repository, follow these steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Elizabeth-Yorke/SusieJunes-A)
+2. Locate the "Fork" Button, in the line of grey buttons above the green **Code** button.
+3. Click this button.
+4. Return to your GitHub Home page. You should now have your own copy of this repository.
+
+### Local VS Deployment
+
+Initially there were some differences between local and live deployment, but since debugging as described in [TESTING.md](TESTING.md) there are now no obvious differences.
+
+## Credits
+
+### Websites Used to Generate Content
+
+Here is a list of websites I used to create this project:
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Code Institute - Whiskey Drop](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) | Responsive Layout and Quotes | I used this walkthrough project to help me with a lot of the basic code, code that allowed responsive layout design in particular, and the styling around my quotes section. |
+| [Code Institute - Rosie's Resume](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) | Header and Footer | I used this walkthrough project to help me with bootstrapping the menu, adding external links and hover colour changes. |
+| [Code Institute - Love Running](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment)| General design | I used the rule of thirds and the central circular image coding from this project. |
+| [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) | Reservation Pages | I used this website to help me with the form elements and their labelling and validation. |
+| [Stack Overflow](https://stackoverflow.com/questions/) | Anything not strictly in the Code Institute lessons | I looked up questions and answers on Stack Overflow every time I just wanted to see if my ideas were feasible in html and css, before I got carried away researching how to do impossible things. |
+| [Favicon.cc](https://www.favicon.cc/) | The Favicon | I used this website to generate my favicon |
+| [Dev](https://dev.to/sh20raj/creating-custom-404-pages-on-github-pages-17nb)| The 404 Page | This page just seemed to offer  much easier way of creating the 404 page than everywhere else I looked. |
+| [Adobe Color](https://color.adobe.com/create/image)| The brand colors | I used this website to extract the exact brand colours from the logo .|
+| [Fontawesome](https://fontawesome.com/) | The icons | I only really used this for the Facebook Icon |
+| [Google Fonts](https://fonts.google.com/) | The Fonts | I used this for the fonts all over the website. |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/) | Navbar and centralising image placement | I bootstrapped a navbar, and then added the cafe logo and personalised it. I also bootstrapped some image placement code to try to get the menu pictures where I wanted them. Then I played around with it myself until it barely resembled what I originally copied, but it was originally bootstrapped.|
+
+### Photos
+
+The intention was for all photos to be supplied by Susie June's Cafe. Whilst most of the photos are originals from Susie June's Cafe, I will have to hand this project in before I recieve the last few photos. I have therefore used the following images from [Pexels](https://www.pexels.com/) as placeholders so I can hand in the project. These will be replaced with original photos before the cafe uses the site.
+
+| Image Description | Link | Location on Website |
+| --- | --- | --- |
+| Breakfast Sandwich | [Breakfast Sandwich](https://www.pexels.com/photo/bacon-sandwich-on-plate-139746/) | Menu page, second food photo|
+| Cyclist | [Cyclist](https://www.pexels.com/photo/high-angle-view-of-people-on-bicycle-248547/) | Catering page, quotes section |
+| Girl Image | [Girl Image](https://www.pexels.com/photo/woman-wearing-red-hat-and-sunglasses-1729931/) | Home page, quotes section |
+| Guy Image | [Guy Image](https://www.pexels.com/photo/father-and-son-in-the-park-4586685/) | Home page, Quotes section |
+| Omelette | [Omelette](https://www.pexels.com/photo/selective-focus-photography-of-omelette-with-toppings-1437268/) | Menu page, fourth food photo |
+| Wedding Couple | [Wedding Couple](https://www.pexels.com/photo/man-in-black-suit-kissing-a-woman-in-white-dress-3785644/) | Catering page, quotes section |
+
+### Other Content
+
+Apart from the photos mentioned above, all website content, including the downloadable menu, and the Facebook page, was supplied by Susie June's Cafe. All grammar, capitalisation, and wording choices on the webiste were also overseen by the owners of the cafe. Including choices such as the use of '&' rather than 'and'. 
+
+## Acknowledgements
+
+- I would like to thank my Code Institute mentor, Sheryl Goldberg for her support throughout the creation and development of this project - her insight and encouragement has been invaluable.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with debugging some project issues, and just generally answering my questions.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support. I found it really helpful to read threads on there.
+- I would like to thank my husband Kieron Yorke, for all his help and reassurance, especially when I had trouble with Codeanywhere.
+- I would like to thank Peter Wright, who substituted as our cohort tutor just at the point when I happened to have a lot of questions about the README.md content.
+- I would like to thank Delyth Jennings, who I have only met on Slack, but who has been really helpful answering numerous silly little questions so I didn't have to bother any tutors.
+- I would also like to thank the owners of Susie June's Cafe, for allowing me to build their cafe website even though I had no prior experience.
+
+
