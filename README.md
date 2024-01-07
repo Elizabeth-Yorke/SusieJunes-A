@@ -23,14 +23,14 @@ Looking at competitors websites was not as helpful as it could have been as it t
 My wireframes were sketched on paper in front of the clients. There were many versions.
 Here are screenshots of the wireframes we finally decided on:
 
-| Page | Phone Wireframe | Desktop Wireframe |
-| --- | --- | --- |
-| Home | [image](assets/wireframes/wireframe-home-phone.jpg) | [image](assets/wireframes/wireframe-home-desktop.jpg) | 
-| Menu | [image](assets/wireframes/wireframe-menu-phone.jpg) | [image](assets/wireframes/wireframe-menu-desktop.jpg) | 
-| Catering | [image](assets/wireframes/wireframe-catering-phone.jpg) | [image](assets/wireframes/wireframe-catering-desktop.jpg) | 
-| Reservations | [image](assets/wireframes/wireframe-reservations-phone.jpg) | [image](assets/wireframes/wireframe-reservations-desktop.jpg) | 
+| Page | Phone Wireframe | Tablet Wireframe | Desktop Wireframe |
+| --- | --- | --- | --- |
+| Home | [phone](assets/wireframes/wireframe-home-phone.jpg) | [tablet](assets/wireframes/wireframe-home-tablet.jpg) | [desktop](assets/wireframes/wireframe-home-desktop.jpg) | 
+| Menu | [phone](assets/wireframes/wireframe-menu-phone.jpg) | [tablet](assets/wireframes/wireframe-menu-tablet.jpg) | [desktop](assets/wireframes/wireframe-menu-desktop.jpg) | 
+| Catering | [phone](assets/wireframes/wireframe-catering-phone.jpg) | [tablet](assets/wireframes/wireframe-catering-tablet.jpg) | [desktop](assets/wireframes/wireframe-catering-desktop.jpg) | 
+| Reservations | [phone](assets/wireframes/wireframe-reservations-phone.jpg) | [tablet](assets/wireframes/wireframe-reservations-tablet.jpg) | [desktop](assets/wireframes/wireframe-reservations-desktop.jpg) | 
 
-The menu page is significantly longer than it looks on the wireframe, but it follows the basic layout. The only significant change to these layouts came when we decided to add quotes from customers. I also figured out how to add a map in so I cam up with a way of including the quotes and balancing the look of the home page. Here is the revised home desktop wireframe [image](assets/wireframes/wireframe-home-update-desktop.jpg).
+The menu page is significantly longer than it looks on the wireframe, but it follows the basic layout. The only significant change to these layouts came when we decided to add quotes from customers. I also figured out how to add a map in so I cam up with a way of including the quotes and balancing the look of the home page. Here are the revised home page wireframes [desktop wireframe](assets/wireframes/wireframe-home-update-desktop.jpg), [tablet wirframe](assets/wireframes/wireframe-home-update-tablet.jpg), [phone wireframe](assets/wireframes/wireframe-home-update-phone.jpg).
 
 ### Colour Scheme
 
