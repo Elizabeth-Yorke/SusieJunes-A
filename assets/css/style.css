@@ -150,6 +150,7 @@ h1, h2, h3, h4 {
 .footer-slogan {
     display: inline-block;
     color:#FFFFFF;
+    text-shadow: 2px 2px 0px #33402A;
 }
 
 .footer-name {
@@ -157,6 +158,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
     padding-top: 20px;
     text-align: center;
+    color:#FFFFFF;
     text-shadow: 2px 2px 0px #33402A;
 }
 
@@ -181,11 +183,11 @@ h1, h2, h3, h4 {
 .footer-links {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    text-shadow: 2px 2px 0px #33402A;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
     text-decoration: none;
+    text-shadow: 2px 2px 0px #33402a;
     color:#FFFFFF;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
