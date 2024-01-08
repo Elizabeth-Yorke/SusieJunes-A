@@ -39,11 +39,11 @@ h1, h2, h3, h4 {
 }
 
 #hero-image {
-    background: url(../images/hero-image.jpg);
+    background: url(../images/hero-image-d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right;
-    background-color: #33402A;
+    background-position: center;
+    background-color: #33402a;
     min-height: 360px;
     margin: 0;
     padding: 0;
