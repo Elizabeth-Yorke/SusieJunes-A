@@ -8,7 +8,7 @@ A live version of the site can be viewed from [here.](https://elizabeth-yorke.gi
 
 Here is a mock-up image of Susie June's Cafe website, using the "Am I Responsive" site.
 
-![screenshot](assets/documentation/screenshot-am-i-responsive.png).
+![screenshot](assets/documentation/am-i-responsive.png).
 
 ## UX
 
