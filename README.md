@@ -94,6 +94,9 @@ This appears at the top of every page. It has words describing each page in the 
 **Logo links to homepage**
 Every logo that you see can be clicked on and will return you to the homepage.
 
+**Cafe ID Banner**
+There is a banner to identify the cafe on every page, but the colours are reversed on all pages but the homepage. Initially all banners were in the colours of the cafe banner, which showed up as a problem contrast-wise, so I left a strip at the top and the bottom of the banner in the mid-green, and then reversed the colours on the homepage because it went better with the rest of the colouring on the homepage.
+
 **Social links**
 There is a link to the cafe Facebook page in the footer of every page.
 
