@@ -104,7 +104,7 @@ You can click on the + or - on the map to zoom in or out, making it easier to id
 You can download both sides of the menu you will find on the tables in the cafe. This way you don't even need internet access to make your choice before you arrive.
 
 **Reservation Form**
-This form contains validation, so you can only move onto the next bit, it the answer you have already filled in makes sense. Note that only certain answers are required. The owners felt that a telephone numebr was necessary, but that an email address wasn't, as many of their elderly customers don't have emails.
+I have broken this form into three separate pages, so that it is in bitesize chunks. This form contains validation, so you can only move onto the next bit, it the answer you have already filled in makes sense. Note that only certain answers are required. The owners felt that a telephone numebr was necessary, but that an email address wasn't, as many of their elderly customers don't have emails.
 
 **Audio Menu**
 This is a special feature added because the cafe is located close to a specialist college for the visually imapired. Several customers have already trialled it on their phones, and they love it. It saves the owners a lot of time reading all the options out.
