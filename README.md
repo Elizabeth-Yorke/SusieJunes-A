@@ -231,6 +231,8 @@ The intention was for all photos to be supplied by Susie June's Cafe. Whilst mos
 | Omelette | [Omelette](https://www.pexels.com/photo/selective-focus-photography-of-omelette-with-toppings-1437268/) | Menu page, fourth food photo |
 | Wedding Couple | [Wedding Couple](https://www.pexels.com/photo/man-in-black-suit-kissing-a-woman-in-white-dress-3785644/) | Catering page, quotes section |
 
+Where possible, I used [comperssor.io](https://compressor.io/) to compress the photographs supplied by the cafe, in response to advice from PageSpeed.
+
 ### Other Content
 
 Apart from the photos mentioned above, all website content, including the downloadable menu, and the Facebook page, was supplied by Susie June's Cafe. All grammar, capitalisation, and wording choices on the webiste were also overseen by the owners of the cafe. Including choices such as the use of '&' rather than 'and'. 
