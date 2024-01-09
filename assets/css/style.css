@@ -55,7 +55,10 @@ h1, h2, h3, h4 {
     padding: 20px 0;
     margin: 0;
     text-align: center;
-    text-shadow: 2px 2px 0px #33402A;
+}
+
+.inner-name {
+    padding: 10px;
 }
 
 .slogan {
@@ -147,26 +150,21 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 
-.footer-slogan {
-    display: inline-block;
-    color:#FFFFFF;
-    text-shadow: 2px 2px 0px #33402A;
-}
-
 .footer-name {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding-top: 20px;
+    padding: 20px 0;
     text-align: center;
-    color:#FFFFFF;
-    text-shadow: 2px 2px 0px #33402A;
+}
+
+.inner-name-footer {
+    padding: 30px 0;
 }
 
 .footer-download {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 30px 0;
     text-align: center;
     text-decoration: none;
     color:#F2F2F2;
@@ -180,15 +178,17 @@ h1, h2, h3, h4 {
     color: #7E8C70;
 }
 
+.social {
+    padding: 30px 0;
+}
+
 .footer-links {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 20px 0;
     text-align: center;
     text-decoration: none;
-    text-shadow: 2px 2px 0px #33402a;
-    color:#FFFFFF;
+    color:#33402a;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -196,7 +196,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-links a:hover {
-    color: #33402a;
+    color: #7E8C70;
 }
 
 /* -- Menu Page -- */
