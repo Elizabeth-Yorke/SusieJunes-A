@@ -25,12 +25,12 @@ Here are screenshots of the wireframes we finally decided on:
 
 | Page | Phone Wireframe | Tablet Wireframe | Desktop Wireframe |
 | --- | --- | --- | --- |
-| Home | [phone](assets/wireframes/wireframe-home-phone.jpg) | [tablet](assets/wireframes/wireframe-home-tablet.jpg) | [desktop](assets/wireframes/wireframe-home-desktop.jpg) | 
-| Menu | [phone](assets/wireframes/wireframe-menu-phone.jpg) | [tablet](assets/wireframes/wireframe-menu-tablet.jpg) | [desktop](assets/wireframes/wireframe-menu-desktop.jpg) | 
-| Catering | [phone](assets/wireframes/wireframe-catering-phone.jpg) | [tablet](assets/wireframes/wireframe-catering-tablet.jpg) | [desktop](assets/wireframes/wireframe-catering-desktop.jpg) | 
-| Reservations | [phone](assets/wireframes/wireframe-reservations-phone.jpg) | [tablet](assets/wireframes/wireframe-reservations-tablet.jpg) | [desktop](assets/wireframes/wireframe-reservations-desktop.jpg) | 
+| Home | [phone](assets/documentation/wireframes/wireframe-home-phone.jpg) | [tablet](assets/documentation/wireframes/wireframe-home-tablet.jpg) | [desktop](assets/documentation/wireframes/wireframe-home-desktop.jpg) | 
+| Menu | [phone](assets/documentation/wireframes/wireframe-menu-phone.jpg) | [tablet](assets/documentation/wireframes/wireframe-menu-tablet.jpg) | [desktop](assets/documentation/wireframes/wireframe-menu-desktop.jpg) | 
+| Catering | [phone](assets/documentation/wireframes/wireframe-catering-phone.jpg) | [tablet](assets/documentation/wireframes/wireframe-catering-tablet.jpg) | [desktop](assets/documentation/wireframes/wireframe-catering-desktop.jpg) | 
+| Reservations | [phone](assets/documentation/wireframes/wireframe-reservations-phone.jpg) | [tablet](assets/documentation/wireframes/wireframe-reservations-tablet.jpg) | [desktop](assets/documentation/wireframes/wireframe-reservations-desktop.jpg) | 
 
-The menu page is significantly longer than it looks on the wireframe, but it follows the basic layout. The only significant change to these layouts came when we decided to add quotes from customers. I also figured out how to add a map in so I cam up with a way of including the quotes and balancing the look of the home page. Here are the revised home page wireframes [desktop wireframe](assets/wireframes/wireframe-home-update-desktop.jpg), [tablet wirframe](assets/wireframes/wireframe-home-update-tablet.jpg), [phone wireframe](assets/wireframes/wireframe-home-update-phone.jpg).
+The menu page is significantly longer than it looks on the wireframe, but it follows the basic layout. The only significant change to these layouts came when we decided to add quotes from customers. I also figured out how to add a map in so I cam up with a way of including the quotes and balancing the look of the home page. Here are the revised home page wireframes [desktop wireframe](assets/documentation/wireframes/wireframe-home-update-phone.jpg), [tablet wirframe](assets/documentation/wireframes/wireframe-home-update-tablet.jpg), [phone wireframe](assets/documentation/wireframes/wireframe-home-update-desktop.jpg).
 
 ### Colour Scheme
 
@@ -229,8 +229,6 @@ The intention was for all photos to be supplied by Susie June's Cafe. Whilst mos
 | --- | --- | --- |
 | Breakfast Sandwich | [Breakfast Sandwich](https://www.pexels.com/photo/bacon-sandwich-on-plate-139746/) | Menu page, second food photo|
 | Cyclist | [Cyclist](https://www.pexels.com/photo/high-angle-view-of-people-on-bicycle-248547/) | Catering page, quotes section |
-| Girl Image | [Girl Image](https://www.pexels.com/photo/woman-wearing-red-hat-and-sunglasses-1729931/) | Home page, quotes section |
-| Guy Image | [Guy Image](https://www.pexels.com/photo/father-and-son-in-the-park-4586685/) | Home page, Quotes section |
 | Omelette | [Omelette](https://www.pexels.com/photo/selective-focus-photography-of-omelette-with-toppings-1437268/) | Menu page, fourth food photo |
 | Wedding Couple | [Wedding Couple](https://www.pexels.com/photo/man-in-black-suit-kissing-a-woman-in-white-dress-3785644/) | Catering page, quotes section |
 
