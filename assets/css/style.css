@@ -77,6 +77,11 @@ nav .nav-link {
     text-align: center;
 }
 
+.header-bottom {
+    height: 20px;
+    background-color: #7E8C70;
+}
+
 /* -- Information Boxes -- */
 
 #information-boxes {
@@ -158,21 +163,27 @@ nav .nav-link {
     font-weight: 400;
 }
 
+.footer-top {
+    height: 20px;
+    background-color: #7E8C70;
+}
+
+.footer-bottom {
+    height: 20px;
+    background-color: #7E8C70;
+}
+
 .footer-name {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding: 20px 0;
+    padding: 25px 0;
     text-align: center;
-}
-
-.inner-name-footer {
-    padding: 30px 0;
 }
 
 .footer-download {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding: 30px 0;
+    padding: 10px 0;
     text-align: center;
     text-decoration: none;
     color:#F2F2F2;
@@ -186,14 +197,10 @@ nav .nav-link {
     color: #7E8C70;
 }
 
-.social {
-    padding: 30px 0;
-}
-
 .footer-links {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 400;
-    padding: 20px 0;
+    padding: 25px 0;
     text-align: center;
     text-decoration: none;
     color:#33402a;
