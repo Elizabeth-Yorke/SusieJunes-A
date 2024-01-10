@@ -31,12 +31,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](assets/documentation/browser-testing-screenshot-chrome.jpeg.png) | Works as expected |
-| Firefox | ![screenshot](assets/documentation/browser-testing-screenshot-mozilla.png) | Works as expected |
-| Edge | ![screenshot](assets/documentation/browser-testing-screenshot-edge.jpeg) | Minor scaling issues |
-| Brave | ![screenshot](assets/documentation/browser-testing-screenshot-brave.png) | Works as expected |
-| Opera | ![screenshot](assets/documentation/browser-testing-screenshot-opera.png) | Works as expected|
-| Avast | ![screenshot](assets/documentation/browser-testing-screenshot-avast.png) | Works as expected|
+| Chrome | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-chrome.jpeg.png) | Works as expected |
+| Firefox | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-mozilla.png) | Works as expected |
+| Edge | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-edge.jpeg) | Minor scaling issues |
+| Brave | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-brave.png) | Works as expected |
+| Opera | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-opera.png) | Works as expected|
+| Avast | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-avast.png) | Works as expected|
 
 ## Testing Responsiveness
 
@@ -44,15 +44,19 @@ I used media genesis responsive design checker [Media Genesis responsive design 
 
 |Device|Screensize|URL|Screenshot|Notes|
 | --- | --- | --- | --- | --- |
-|Desktop 24"|Screensize 1920x1200|[screenshot](assets/documentation/media-genesis-screenshot-1920-1200.png) |Works as expected|
-|Desktop 20"|Screensize 1600x900|[screenshot](assets/documentation/media-genesis-screenshot-1600x900.png) |Works as expected|
-|Notebook 13"|Screensize 1024x800|[screenshot](assets/documentation/media-genesis-screenshot-1024x800.png) |Works as expected|
-|Tablet Apple iPad Pro|Screensize 1366x1024|[screenshot](assets/documentation/media-genesis-screenshot-1366x1024.png) |Works as expected|
-|Tablet Amazon Fire|Screensize 768x1024|[screenshot](assets/documentation/media-genesis-screenshot-768x1024.png) |Some image issues on the catering page only|
-|Tablet Nexus 7|Screensize 600x960|[screenshot](assets/documentation/media-genesis-screenshot-600x960.png) |Works as expected|
-|Phone Apple iPhone 7 Plus|Screensize 414x736|[screenshot](assets/documentation/media-genesis-screenshot-414x736.png) |Works as expected|
-|Phone Google Pixel|Screensize 411x731|[screenshot](assets/documentation/media-genesis-screenshot-411x731.png) |Works as expected|
-|Phone Sony Xperia Z3|Screensize 360x640|[screenshot](assets/documentation/media-genesis-screenshot-360x640.png) |Works as expected|
+|Desktop 24"|Screensize 1920x1200|[screenshot](assets/documentation/responsivity/desktop1920x1200.png) |Works as expected|
+|Desktop 20"|Screensize 1600x900|[screenshot](assets/documentation/responsivity/desktop1600x900.png) |Works as expected|
+|Notebook 13"|Screensize 1024x800|[screenshot](assets/documentation/responsivity/notebook1024x800.png) |Works as expected|
+|Tablet Apple iPad Pro|Screensize 1366x1024|[screenshot](assets/documentation/responsivity/tablet1366x1024.png) |Works as expected|
+|Tablet Amazon Fire|Screensize 768x1024|[screenshot](assets/documentation/responsivity/tablet768x1024.png) |Works as expected|
+|Tablet Nexus 7|Screensize 600x960|[screenshot](assets/documentation/responsivity/tablet600x900.png) |Works as expected|
+|Phone Apple iPhone 7 Plus|Screensize 414x736|[screenshot](assets/documentation/responsivity/phone414x736.png) |Works as expected|
+|Phone Google Pixel|Screensize 411x731|[screenshot](assets/documentation/responsivity/phone411x731.png) |Works as expected|
+|Phone Sony Xperia Z3|Screensize 360x640|[screenshot](assets/documentation/responsivity/phone360x640.png) |Works as expected|
+
+This section has been re-done since the initial responsivity checks, because I had to edit the image sizes and add some responsive coding 'd-none d-md-block col-lg-3' to the catering page, as some images were overlapping the text on one of the tablet screen sizes.
+
+I also added this line of code 'height: calc(100vh -358px);' to style.css in order to make sure reservations 4, which is quite a short page, reaches the bottom of every screen size. This idea came from my mentor, Sheryl Goldberg.
 
 
 ## Testing Website Speed

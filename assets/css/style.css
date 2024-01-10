@@ -392,6 +392,7 @@ nav .nav-link {
 #reservation-form-4 {
     padding: 20px;
     text-align: center;
+    height: calc(100vh -358px);
 }
 
 #logo-reservations-4 {
