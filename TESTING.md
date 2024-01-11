@@ -38,7 +38,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Opera | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-opera.png) | Works as expected|
 | Avast | ![screenshot](assets/documentation/browser-testing/browser-testing-screenshot-avast.png) | Works as expected|
 
-## Testing Responsiveness
+## Testing Different Screen Sizes
 
 I used media genesis responsive design checker [Media Genesis responsive design checker] (https://www.responsivedesignchecker.com/checker.php?url=https%3A%2F%2Felizabeth-yorke.github.io%2FSusieJunes-A%2F&width=1400&height=700) to check how responsive Susie June's website is. I used the live, deployed site. Links below.
 
