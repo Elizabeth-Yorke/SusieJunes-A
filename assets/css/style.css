@@ -65,7 +65,7 @@ nav .nav-link {
 }
 
 .inner-name {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .slogan {
@@ -389,33 +389,35 @@ nav .nav-link {
 /* -- Reservations 4 -- */
 
 #reservation-form-4 {
-    position:fixed;
     padding: 20px;
     text-align: center;
-    height: calc(100% - 346px);
 }
 
 #logo-reservations-4 {
     text-align: center;
 }
 
+.extend-screen {
+    height: calc(100% - 346px);
+}
+
 /* -- 404 -- */
 
-#text-404-title {
+#text-404 {
     font-family: 'Edu TAS Beginner', cursive;
     text-align: center;
+    padding: 0 20px 0;
+}
+
+#text-404-title {
     padding: 20px;
 }
 
 #text-404a {
-    font-family: 'Edu TAS Beginner', cursive;
-    text-align: center;
     font-size: large;
 }
 
 #text-404b {
-    font-family: 'Edu TAS Beginner', cursive;
-    text-align: center;
     font-size: large;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -424,6 +426,14 @@ nav .nav-link {
 .contact-title-404 {
     text-align: center;
     padding: 20px;
+}
+
+.contact-404 {
+    margin: 0;
+}
+
+.map-404 {
+    padding-bottom: 20px;
 }
 
 .message {

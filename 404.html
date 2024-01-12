@@ -63,7 +63,7 @@
 
 <!-- Hero Image -->
 
-<div class="container-fluid" id="hero-image-container">
+<div class="container-fluid hero-image-container">
     <div class="row color-scheme-b name">
         <div class="color-scheme-a inner-name">
             <h2><strong>Susie June's Cafe</strong></h2>
@@ -76,9 +76,10 @@
 
 <!-- 404 message -->
 
+<div class="container-fluid">
 <div class="row message">
     <div class="col-md-8 color-scheme-c">
-        <div>
+        <div id="text-404">
             <h4 id="text-404-title">Hello valued customer!</h4>
             <p id="text-404a">Unfortunately that page doesn't exist, but we are still very keen to help you find the information you are looking for.</p>
             <p id="text-404b">Please click on the icon below to return to the homepage.</p>
@@ -106,22 +107,23 @@
         </div>
     </div>
 
-    <div class="col-md-4 color-scheme-a">
-    <section>
-        <div>
-            <h3 class="text-uppercase contact-title-404">Alternatively.. call us or pop in!</h3>
-            <hr class="block-divider block-divider--short">
+    <div class="col-md-4 color-scheme-a" id="contact-us">
+        <section>
             <div>
-              <div class="contact-us-item"><i class="fa-solid fa-location-dot"></i><p>67F High Street Starbeck, Harrogate, United Kingdom.</p></div>
-              <div class="contact-us-item"><i class="fa-solid fa-phone"></i><p>01423 819999</p></div>
-              <div class="contact-us-item"><i class="fa-solid fa-envelope"></i><p>susiejunes@yahoo.com</p></div>
+                <h3 class="text-uppercase">Contact Us</h3>
+                <hr class="block-divider block-divider--short">
+                <div>
+                  <div class="contact-us-item"><i class="fa-solid fa-location-dot"></i><p>67F High Street Starbeck, Harrogate, United Kingdom.</p></div>
+                  <div class="contact-us-item"><i class="fa-solid fa-phone"></i><p>01423 819999</p></div>
+                  <div class="contact-us-item"><i class="fa-solid fa-envelope"></i><p>susiejunes@yahoo.com</p></div>
+                </div>
+                <div id="map-wrapper">
+                  <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37523.91623031434!2d-1.503956!3d53.9984309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795230197f5f9d%3A0x28d3493f947d24a0!2sSusie%20June%E2%80%99s%20Cafe!5e0!3m2!1sen!2suk!4v1701972933701!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <div id="map-wrapper">
-              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37523.91623031434!2d-1.503956!3d53.9984309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795230197f5f9d%3A0x28d3493f947d24a0!2sSusie%20June%E2%80%99s%20Cafe!5e0!3m2!1sen!2suk!4v1701972933701!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </section>
+        </section>
     </div>
+</div>
 </div>
 
 <!-- Footer -->
