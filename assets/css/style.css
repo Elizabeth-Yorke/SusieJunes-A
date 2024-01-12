@@ -389,9 +389,10 @@ nav .nav-link {
 /* -- Reservations 4 -- */
 
 #reservation-form-4 {
+    position:fixed;
     padding: 20px;
     text-align: center;
-    height: calc(100%-346px);
+    height: calc(100% - 346px);
 }
 
 #logo-reservations-4 {
@@ -426,7 +427,7 @@ nav .nav-link {
 }
 
 .message {
-    height: calc(100%-346px);
+    height: calc(100% - 346px);
 }
 
 /* -- Media Queries -- */
