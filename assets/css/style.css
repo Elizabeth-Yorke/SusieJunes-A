@@ -41,12 +41,12 @@ nav .nav-link {
 
 /* -- Hero Image -- */
 
-#hero-image-container {
+.hero-image-container {
     margin: 0;
     padding: 0;
 }
 
-#hero-image {
+.hero-image {
     background: url(../images/hero-image-d.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -392,7 +392,7 @@ nav .nav-link {
 #reservation-form-4 {
     padding: 20px;
     text-align: center;
-    height: calc(100vh -358px);
+    height: calc(100vh -346px);
 }
 
 #logo-reservations-4 {
