@@ -139,6 +139,18 @@ The owners were set on the current hero image from the beginning of the project,
 
 Please find details of testing on a separate page [TESTING.md](TESTING.md).
 
+## Improvements Made After Initial Testing Phase
+
+Following the initial testing phase and debugging, once the website had passed validation, browser testing, and screen responsivity testing, I sent the website to a number of people, including my tutor Jessica Ickechukwu, my mentor Sheryl Goldberg, and the owners of the website who all recommended possible design improvements. I also went through all the page speed recommendations. I then attempted to implemented as many of these recommendations as possible. 
+Here is a list of the changes I made:
+- I replaced the main image with a better quality picture, and changed all the positioning etc to make sure that one worked on all screen sizes.
+- I removed the main image from all but the index page, and added responsivity coding to the reservations pages that were then too short to reach the bottom of some of the longer browser lengths. The main image was removed from the header of the other pages in order to make it more obvious that the pages were different.
+- I re-downloaded all my original images, used a different editor to crop them, and then compressed them using [Tiny.png](https://tinypng.com/), in order to make sure nothing was stretched and that images were as small as possible. I have also converted the largest ones to webp format to ensure faster upload times. Unfortunately I couldn't do this with all the images on Tiny.png without having to pay for the facility.
+- Unfortunately, because the main shop branding colour is a 'mid-green', PageSpeed objected to the contrast which both light and dark writing on it. I had to do a lot of work to get around this:
+    - I altered the colouring of every section on the menu page, to keep the page broken into sections for easy reading and avoid constrast issues, whilst still using as much of the mid-green as I could. I stuck to using the minor colours in the shop logo to avoid losing branding altogether.
+    - I also talked the owners into letting me change the banner colours in the header and footer from the actual shop frontage colours to the darker green with light writing. In order to ensure the main shop mid-green was still visible, I then added mid-green stripes above and below the header and footer.
+- I then re-tested using PageSpeed and uploaded the results to TESTING.md.
+
 ## Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used for the main site content.
@@ -149,6 +161,7 @@ Please find details of testing on a separate page [TESTING.md](TESTING.md).
 - [Bootstrap](https://getbootstrap.com) was used as a framework for modern responsiveness and pre-built components.
 - [Google Fonts](https://fonts.google.com/) was used for the fonts.
 - [Font Awesome](https://fontawesome.com/) was used for the icons.
+- [Tiny.png](https://tinypng.com/) was used to compress images, and in some cases to convert images to .webp format.
 
 - This project was initially started using the IDE [Code Anywhere](https://codeanywhere.com/). Unfortunately there were numerous times when I couldn't access the site, or opening repositories took a long time, or the site crashed unexpectedly. I followed a thread of similar complaints to mine on Slack, and eventually contacted kenan_community_ci who advised me to switch to using [Gitpod](https://gitpod.io). I followed this advice and completed my project using Gitpod as my IDE.
 I was a bit worried there might be repercussions to switiching IDEs, as I built my project using the Codeanywhere template, but it seems to be working fine.
@@ -232,7 +245,6 @@ The intention was for all photos to be supplied by Susie June's Cafe. Whilst mos
 | Omelette | [Omelette](https://www.pexels.com/photo/selective-focus-photography-of-omelette-with-toppings-1437268/) | Menu page, fourth food photo |
 | Wedding Couple | [Wedding Couple](https://www.pexels.com/photo/man-in-black-suit-kissing-a-woman-in-white-dress-3785644/) | Catering page, quotes section |
 
-Where possible, I used [comperssor.io](https://compressor.io/) to compress the photographs supplied by the cafe, in response to advice from PageSpeed.
 
 ### Other Content
 
@@ -244,6 +256,7 @@ Apart from the photos mentioned above, all website content, including the downlo
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with debugging some project issues, and just generally answering my questions.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support. I found it really helpful to read threads on there.
 - I would like to thank my husband Kieron Yorke, for all his help and reassurance, especially when I had trouble with Codeanywhere.
+- I would like to thank Jessica Ickechukwu, my tutor who kindly looked over my project.
 - I would like to thank Peter Wright, who substituted as our cohort tutor just at the point when I happened to have a lot of questions about the README.md content.
 - I would like to thank Delyth Jennings, who I have only met on Slack, but who has been really helpful answering numerous silly little questions so I didn't have to bother any tutors.
 - I would also like to thank the owners of Susie June's Cafe, for allowing me to build their cafe website even though I had no prior experience.
