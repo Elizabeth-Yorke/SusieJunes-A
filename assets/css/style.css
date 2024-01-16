@@ -38,11 +38,6 @@ h1, h2, h3, h4 {
     font-size: 1.5rem;
 }
 
-.navbar-logo {
-    height: 50px;
-    width: 50px;
-}
-
 .search-button {
     color:#33402a !important;
     font-size: 1.5rem;
